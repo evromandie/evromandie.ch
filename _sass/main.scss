@@ -1,0 +1,45 @@
+@import "bootstrap/bootstrap";
+
+$brand-color-blue: #276eb7;
+$brand-color-grey: #383838;
+
+.navbar-light .nav-item-forum {
+    margin-left: 1em;
+
+    .nav-link {
+        background: $brand-color-blue;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        padding-left: 1em;
+        padding-right: 1em;
+
+        &:hover {
+            color: white;
+            background: darken($brand-color-blue, 10%);
+        }
+    }
+}
+
+footer {
+    background: #f3f3f3f3;
+    min-height: 200px;
+    margin-top: 40px;
+    padding: 60px 0;
+
+    a {
+        color: #888;
+    }
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.landing-text {
+    text-transform: uppercase;
+    color: $brand-color-grey;
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1.1;
+}
