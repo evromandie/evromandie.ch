@@ -20,10 +20,12 @@ N'hésitez pas à faire des propositions [sur le forum]({{ site.forum_url }}).
 
 Suisse:
 
-- [EVPASS](https://evpass.ch/) (réseau et pass)
+- [EVPASS](https://evpass.ch/) (réseau et pass avec ou sans abonnement)
   - [Smotion](http://www.smotion.ch/) (Jura, Jura bernois)
   - [Vmotion](http://www.vmotion.ch/) (Neuchatel)
 - [EVite](https://www.swiss-emobility.ch/fr/EVite/EVite-Ladestationen/index.php) (réseau)
+- [Move](http://www.move.ch/fr/) (pass avec abonnement, plusieurs partenaires)
+- [M-Way / Migros](https://generation-m.migros.ch/fr/preserver-la-planete/astuces-et-outils/recharger-voiture-electrique.html) (bornes gratuites sur les parkings des magasins Migros)
 
 International:
 
@@ -31,6 +33,7 @@ International:
 - [Chargemap](https://chargemap.com/map) (liste de chargeur et pass)
 - [Supercharge.info](https://supercharge.info/) (liste non officielle des super-chargeurs Tesla)
 - [Carte des chargeurs Tesla](https://www.tesla.com/fr_CH/findus) (officielle)
+- [eCarUp](https://web.ecarup.com/) (solution de partage de chargeurs privés/professionnels)
 
 ## Louer un véhicule électrique
 
@@ -82,6 +85,10 @@ Wallboxes:
 - [m-way](https://m-way.ch/fr/infrastucture-de-recharge/)
 - [vRbikes](https://www.vrbikes.ch/fr/station-de-recharge.html)
 - [Smotion](http://www.smotion.ch/fr/Solutions-de-recharge/Solutions-de-recharge.html)
+- [BKW (maison)](https://www.bkw.ch/fr/clients-prives/electromobilite/borne-de-recharge-pour-la-maison/)
+- [BKW (entreprise)](https://www.bkw.ch/fr/clients-commerciaux/electromobilite/borne-de-recharge/)
+- [Wallbe](https://shop.wallbe.ch/) (DE)
+- [Schnellladen](https://www.schnellladen.ch/de/) (DE)
 
 ## Achat d'occasion
 
