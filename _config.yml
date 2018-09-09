@@ -30,3 +30,25 @@ main_menu:
     url: /a-propos
 
 forum_url: https://forum.evromandie.ch/
+
+social_links:
+  - title: YouTube
+    url: https://www.youtube.com/channel/UCNGDiG3zqA-sUW0utDszY0Q
+    label: EV Romandie
+    icon: youtube-play
+  - title: Flickr
+    url: https://www.flickr.com/photos/evromandie/albums
+    label: "@evromandie"
+    icon: flickr
+  - title: Twitter
+    url: https://twitter.com/evromandie
+    label: "@evromandie"
+    icon: twitter
+  - title: Facebook
+    url: https://www.facebook.com/evromandie/
+    label: "@evromandie"
+    icon: facebook
+  - title: GitHub
+    url: https://github.com/evromandie
+    label: evromandie
+    icon: github
