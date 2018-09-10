@@ -1,0 +1,76 @@
+- id: evpass
+  name: EVPass
+  logo: evpass.jpg
+  url: https://evpass.ch/
+  url_map: https://evpass.ch/Map
+  subscription: optional
+  start:
+    - app
+    - rfid_card
+    - swisspass
+  app: yes
+  subpasses:
+    - vmotion
+    - smotion
+    - emoti
+    - altis
+    - sak
+- id: move
+  name: MOVE
+  logo: move.svg
+  url: https://www.move.ch/fr/
+  url_map: https://www.move.ch/fr/#map
+  subscription: yes
+  start:
+    - rfid_badge
+    - rfid_card
+  app: yes
+  subpasses:
+    - BKW
+    - CKW
+    - EBM
+    - Energie Uster
+    - Groupe E
+    - SIG
+- id: swisscharge
+  name: swisscharge
+  logo: swisscharge.svg
+  url: https://www.swisscharge.ch/fr/
+  url_map: https://swisschargef.webapp.virtaglobal.com/
+  start:
+    - rfid_card
+  app: yes
+- id: chargemap
+  name: Chargemap
+  logo: chargemap.svg
+  url: https://chargemap.com/
+  url_map: https://chargemap.com/map
+  subscription: no
+  start:
+    - rfid_card
+  app: yes
+- id: plugsurfing
+  name: Plugsurfing
+  logo: plugsurfing.svg
+  url: https://www.plugsurfing.com/
+  url_map: https://www.plugsurfing.com/fr/personal/map.html
+  start:
+    - app
+    - rfid_badge
+  app: yes
+- id: chargenow
+  # Uniquement pour BMW ?
+  name: ChargeNow
+  logo: chargenow.png
+  url: https://chargenow.com/web/chargenow-ch/
+  url_map: https://chargenow.com/web/chargenow-ch/find
+  subscription: optional
+  start:
+    - rfid_card
+- id: easy4you
+  # Ne semble plus accepter de nouvelles inscriptions
+  name: easy4you
+  url: https://www.easy-4-you.ch/fr/home.html
+  url_map: https://ewb.easy-4-you.ch/fr/stationfinder-3/
+  start:
+    - unknown

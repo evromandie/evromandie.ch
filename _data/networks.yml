@@ -1,0 +1,58 @@
+- name: EVPass (Green Motion)
+  logo: evpass.jpg
+  url: https://evpass.ch/
+  url_chargemap: https://chargemap.com/networks/green-motion-sarl
+  count: 529
+  count_date: 2018-09-10
+  count_source: chargemap
+  app: yes
+  passes:
+    - chargemap
+    - chargenow
+    - evpass
+    - plugsurfing
+    - swisscharge
+    - vmotion
+- name: MOVE
+  logo: move.svg
+  url: https://www.move.ch/fr/
+  url_chargemap: https://chargemap.com/networks/move-quickchargers
+  count: 31
+  count_date: 2018-09-10
+  count_source: chargemap
+  app: yes
+  passes:
+    - chargenow
+    - easy4you
+    - move
+    - newmotion
+    - plugsurfing
+    - swisscharge
+- name: GOFAST
+  logo: gofast.png
+  url: https://gofastcharge.com/wp/index.php/fr/home-f/
+  url_map: https://gofastcharge.com/wp/index.php/fr/locations-f/
+  url_chargemap: https://chargemap.com/networks/gottardo-fast-charge
+  count: 15
+  count_date: 2018-09-10
+  count_source: chargemap
+  passes:
+    - swisscharge
+- name: Chargeurs de destination Tesla
+  url: https://www.tesla.com/fr_CH/findus#?search=destination%20charger
+  url_chargemap: https://chargemap.com/networks/tesla-destination-charging
+  free: yes
+- name: m-way
+  url: https://generation-m.migros.ch/fr/preserver-la-planete/astuces-et-outils/recharger-voiture-electrique.html
+  url_chargemap: https://chargemap.com/networks/migros
+  count: 30
+  count_date: 2018-09-10
+  count_source: migros.ch
+  free: yes
+- name: Lidl
+  url: https://www.lidl.ch/fr/Recharge-electrique-478.htm
+  url_chargemap: https://chargemap.com/networks/lidl-ch
+  count: 23
+  count_date: 2018-09-10
+  count_source: lidl.ch
+  free: yes

@@ -20,12 +20,15 @@ N'hésitez pas à faire des propositions [sur le forum]({{ site.forum_url }}).
 
 Suisse:
 
-- [EVPASS](https://evpass.ch/) (réseau et pass avec ou sans abonnement)
+Nous avons également une [page dédiée](/reseaux) avec un tableau de compatibilité entre les passes.
+
+- [EVPASS](https://evpass.ch/) (réseau et passe avec ou sans abonnement)
   - [Smotion](http://www.smotion.ch/) (Jura, Jura bernois)
   - [Vmotion](http://www.vmotion.ch/) (Neuchatel)
 - [EVite](https://www.swiss-emobility.ch/fr/EVite/EVite-Ladestationen/index.php) (réseau)
-- [Move](http://www.move.ch/fr/) (pass avec abonnement, plusieurs partenaires)
+- [Move](http://www.move.ch/fr/) (passe avec abonnement, plusieurs partenaires)
 - [M-Way / Migros](https://generation-m.migros.ch/fr/preserver-la-planete/astuces-et-outils/recharger-voiture-electrique.html) (bornes gratuites sur les parkings des magasins Migros)
+- [Liste des réseaux suisses sur Openchargemap](https://openchargemap.org/site/country/switzerland/networks)
 
 International:
 

@@ -1,0 +1,194 @@
+---
+layout: page
+permalink: /reseaux
+title: Réseaux
+---
+
+<p>Ces listes ne sont pas exhaustives, n'hésitez pas à faire des suggestions <a href="{{ site.forum_url }}">sur le
+    forum</a> !</p>
+
+<p>Ces informations sont fournies <strong>sans aucune garantie !</strong></p>
+
+<h2>Réseaux payants et passes compatibles</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Passe</th>
+        {% for network in site.data.networks %}
+        {% if network.free != true %}
+        <th>
+            {% if network.logo %}
+            <img class="network-logo" src="/media/networks/{{ network.logo }}" alt="Logo {{ network.name }}">
+            {% endif %}
+
+            {{ network.name }}
+        </th>
+        {% endif %}
+        {% endfor %}
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td></td>
+        {% for network in site.data.networks %}
+        {% if network.free != true %}
+        <td>
+            <p>
+                {% if network.url_chargemap %}
+                <a href="{{ network.url_chargemap }}">
+                    <i class="fa fa-map text-muted"></i>
+                    Sur Chargemap
+                </a>
+                {% endif %}
+
+                {% if network.url_map %}
+                <a href="{{ network.url_map }}">
+                    <i class="fa fa-map text-muted"></i>
+                    Carte
+                </a>
+                {% endif %}
+
+                {% if network.url %}
+                <a href="{{ network.url }}">
+                    <i class="fa fa-globe text-muted"></i>
+                    Site
+                </a>
+                {% endif %}
+            </p>
+
+            {% if network.count %}
+            <p>
+                <abbr title="En date du {{ network.count_date }}, source: {{ network.count_source }}">
+                    {{ network.count }} emplacements
+                </abbr>
+            </p>
+            {% endif %}
+        </td>
+        {% endif %}
+        {% endfor %}
+    </tr>
+    {% for pass in site.data.passes %}
+    <tr>
+        <td>
+
+            <h5>
+                {% if pass.logo %}
+                <img class="network-logo" src="/media/networks/{{ pass.logo }}" alt="{{ pass.name }}"
+                     title="{{ pass.name }}">
+                {% else %}
+                {{ pass.name }}
+                {% endif %}
+            </h5>
+
+            <p class="mb-0">
+                Abonnement: {% if pass.subscription == true %}
+                <span class="text-warning">oui</span>
+                {% elsif pass.subscription == "optional" %}
+                option
+                {% else %}
+                <span class="text-success">non</span>
+                {% endif %}
+            </p>
+
+            <p class="mb-0">
+                Démarrage:
+
+                {% if pass.start contains "app" %}
+                <abbr title="Démarrage par application"><i class="fa fa-mobile"></i> App</abbr>
+                {% endif %}
+
+                {% if pass.start contains "rfid_card" %}
+                <abbr title="Démarrage par carte RFID"><i class="fa fa-id-card"></i> Carte</abbr>
+                {% endif %}
+
+                {% if pass.start contains "rfid_badge" %}
+                <abbr title="Démarrage par badge RFID"><i class="fa fa-id-card"></i> Badge</abbr>
+                {% endif %}
+
+                {% if pass.start contains "unknown" %}
+                Inconnu
+                {% endif %}
+            </p>
+
+            <p class="mb-0">
+                {% if pass.url_map %}
+                <a href="{{ pass.url_map }}">
+                    <i class="fa fa-map text-muted"></i>
+                    Carte
+                </a>
+                {% endif %}
+
+                {% if pass.url %}
+                <a href="{{ pass.url }}">
+                    <i class="fa fa-globe text-muted"></i>
+                    Site
+                </a>
+                {% endif %}
+            </p>
+
+            {% if pass.subpasses %}
+            <p class="mb-0">Partenaires:</p>
+
+            <ul class="mb-0">
+                {% for sub in pass.subpasses %}
+                <li>{{ sub }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </td>
+
+        {% for network in site.data.networks %}
+        {% if network.free != true %}
+        <td class="compare-checkbox">
+            <i class="fa fa-{% if network.passes contains pass.id %}check text-success{% else %}times text-danger{% endif %}"></i>
+        </td>
+        {% endif %}
+        {% endfor %}
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<h2>Réseaux gratuits</h2>
+
+<ul>
+    {% for network in site.data.networks %}
+    {% if network.free == true %}
+    <li>
+        <h5>{{ network.name }}</h5>
+
+        <p>
+            {% if network.url_chargemap %}
+            <a href="{{ network.url_chargemap }}">
+                <i class="fa fa-map text-muted"></i>
+                Sur Chargemap
+            </a>
+            {% endif %}
+
+            {% if network.url_map %}
+            <a href="{{ network.url_map }}">
+                <i class="fa fa-map text-muted"></i>
+                Carte
+            </a>
+            {% endif %}
+
+            {% if network.url %}
+            <a href="{{ network.url }}">
+                <i class="fa fa-globe text-muted"></i>
+                Site
+            </a>
+            {% endif %}
+        </p>
+
+        {% if network.count %}
+        <p>
+            <abbr title="En date du {{ network.count_date }}, source: {{ network.count_source }}">
+                {{ network.count }} emplacements
+            </abbr>
+        </p>
+        {% endif %}
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>

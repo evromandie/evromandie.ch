@@ -24,6 +24,8 @@ matomo:
 main_menu:
   - title: Événements
     url: /evenements
+  - title: Réseaux et passes
+    url: /reseaux
   - title: Liens et ressources
     url: /ressources
   - title: À propos
