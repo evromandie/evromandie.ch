@@ -67,6 +67,14 @@
   subscription: optional
   start:
     - rfid_card
+- id: energie360
+  name: energie360
+  url: https://www.energie360.ch/fr/solutions/mobilite/electromobilite/conduire-un-vehicule-electrique/
+  url_map: https://energie360.webapp.virtaglobal.com/
+  subscription: no
+  start:
+    - app
+    - rfid_card
 - id: easy4you
   # Ne semble plus accepter de nouvelles inscriptions
   name: easy4you

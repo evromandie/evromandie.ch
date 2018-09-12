@@ -37,7 +37,12 @@
   count_date: 2018-09-10
   count_source: chargemap
   passes:
+    - chargenow
+    - energie360
+    - move
+    - plugsurfing
     - swisscharge
+    - thenewmotion
 - name: Chargeurs de destination Tesla
   url: https://www.tesla.com/fr_CH/findus#?search=destination%20charger
   url_chargemap: https://chargemap.com/networks/tesla-destination-charging
