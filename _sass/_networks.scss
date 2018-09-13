@@ -1,0 +1,16 @@
+.network-logo {
+    display: block;
+    max-width: 5em;
+}
+
+.compare-checkbox {
+    text-align: center;
+
+    .fa {
+        font-size: 32px;
+    }
+}
+
+.table td.compare-checkbox {
+    vertical-align: middle;
+}

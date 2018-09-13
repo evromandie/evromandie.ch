@@ -1,0 +1,82 @@
+.landing-head-wrap {
+    background: url(/media/landing-hero.jpg?v=20180912) no-repeat center center;
+    background-size: cover;
+
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        box-shadow: 0 0 30px 30px rgba(white, 0.8);
+        background: rgba(white, 0.8);
+    }
+}
+
+.landing-hero {
+    padding-bottom: 20px;
+}
+
+.landing-motto {
+    text-transform: uppercase;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.1;
+    text-align: center;
+    text-shadow: 2px 2px 0 $brand-color-grey, 2px -2px 0 $brand-color-grey, -2px 2px 0 $brand-color-grey, -2px -2px 0 $brand-color-grey, 1px 1px 0 $brand-color-grey, 1px -1px 0 $brand-color-grey, -1px 1px 0 $brand-color-grey, -1px -1px 0 $brand-color-grey;
+    margin: 15vh 0;
+}
+
+.landing-what {
+    background: #f3f3f3f3;
+    color: #333;
+    padding: 5vh 0;
+    margin-bottom: 20px;
+}
+
+.landing-what-text {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.landing-what-blocks {
+    .what {
+        display: block;
+        color: inherit;
+        text-align: center;
+        border: 2px solid #ddd;
+        padding: 5vh 10px 2vh;
+
+        &:hover {
+            border-color: #aaa;
+            text-decoration: none;
+        }
+
+        .block-icon {
+            vertical-align: middle;
+            color: #ddd;
+            font-size: 40px;
+            margin-right: 10px;
+        }
+
+        em {
+            display: block;
+            font-style: normal;
+            color: #999;
+            margin-top: 3vh;
+        }
+    }
+}
+
+.build-in-progress {
+    border: 2px dashed #ddd;
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-align: center;
+    width: 50em;
+    max-width: 100%;
+    margin: 20px auto 0;
+}

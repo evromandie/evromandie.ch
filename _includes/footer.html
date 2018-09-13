@@ -1,21 +1,32 @@
 <footer>
     <div class="container">
-        <p>
-            <a href="/politique-confidentialite">Politique de confidentialité</a>
-            -
-            <a href="/conditions-utilisation">Conditions d'utilisation</a>
-            -
-            <a href="/regles-forum">Règles du forum</a>
-            -
-            <a href="/a-propos">À propos</a>
-            -
-            <a href="/contact">Contact</a>
-        </p>
-        <p>
-            Site réalisé par <a href="https://kilowhat.net/">Clark Winkelmann</a>
-            -
-            Source du site sur <a href="https://github.com/evromandie/evromandie.ch">GitHub</a>
-        </p>
-        <p>&copy; EV Romandie {{ "now" | date: "%Y" }}</p>
+        <div class="row">
+            <div class="col order-md-1">
+                <ul class="footer-social">
+                    {% for link in site.social_links %}
+                    <li><a href="{{ link.url }}" title="{{ link.title }}"><i class="fa fa-{{ link.icon }}"></i></a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-8 order-md-0">
+                <p>
+                    <a href="/politique-confidentialite">Politique de confidentialité</a>
+                    -
+                    <a href="/conditions-utilisation">Conditions d'utilisation</a>
+                    -
+                    <a href="/regles-forum">Règles du forum</a>
+                    -
+                    <a href="/a-propos">À propos</a>
+                    -
+                    <a href="/contact">Contact</a>
+                </p>
+                <p>
+                    Site réalisé par <a href="https://kilowhat.net/">Clark Winkelmann</a>
+                    -
+                    Source du site sur <a href="https://github.com/evromandie/evromandie.ch">GitHub</a>
+                </p>
+                <p>&copy; EV Romandie {{ "now" | date: "%Y" }}</p>
+            </div>
+        </div>
     </div>
 </footer>
