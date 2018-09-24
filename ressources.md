@@ -81,6 +81,8 @@ En anglais:
 - [Bjørn Nyland](https://www.youtube.com/user/bjornnyland) (Norvège)
 - [E for Electric](https://www.youtube.com/channel/UCNX6A--KWiqE_F45EcPqmNw) (USA)
 - [Rich Rebuilds](https://www.youtube.com/channel/UCfV0_wbjG8KJADuZT2ct4SA) (USA)
+- [Nicolas Raimo (EV Nick)](https://www.youtube.com/channel/UCA5BxqNslvqgVl61NvRTLjQ) (UK)
+- [Zero Tailpipe](https://www.youtube.com/user/waterstink) (UK)
 
 ## Matériel
 
