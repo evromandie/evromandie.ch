@@ -7,7 +7,7 @@ layout: default
 
     <div class="landing-hero">
         <div class="container">
-            <p class="landing-motto">Le site d'information sur la mobilité électrique en Suisse romande</p>
+            <p class="landing-motto"><span class="text-background">Le site d'information sur la mobilité électrique en Suisse romande</span></p>
         </div>
     </div>
 </div>
@@ -17,7 +17,7 @@ layout: default
         <p class="landing-what-text">EV Romandie c'est...</p>
 
         <div class="row landing-what-blocks">
-            <div class="col">
+            <div class="col-md-3">
                 <a class="what" href="https://www.youtube.com/channel/UCNGDiG3zqA-sUW0utDszY0Q">
                     <i class="block-icon fa fa-youtube-play"></i>
                     Une chaîne YouTube
@@ -25,7 +25,7 @@ layout: default
                     <em><i class="fa fa-youtube-play"></i> / EV Romandie</em>
                 </a>
             </div>
-            <div class="col">
+            <div class="col-md-3">
                 <a class="what" href="https://www.flickr.com/photos/evromandie/albums">
                     <i class="block-icon fa fa-flickr"></i>
                     Des galeries Flickr
@@ -33,7 +33,7 @@ layout: default
                     <em><i class="fa fa-flickr"></i> @evromandie</em>
                 </a>
             </div>
-            <div class="col">
+            <div class="col-md-3">
                 <a class="what" href="/">
                     <i class="block-icon fa fa-globe"></i>
                     Des ressources en ligne
@@ -41,7 +41,7 @@ layout: default
                     <em>(c'est ici !)</em>
                 </a>
             </div>
-            <div class="col">
+            <div class="col-md-3">
                 <a class="what" href="{{ site.forum_url }}">
                     <i class="block-icon fa fa-comments"></i>
                     Une communauté
@@ -50,38 +50,21 @@ layout: default
                 </a>
             </div>
         </div>
-
-        <div class="build-in-progress">
-            Le site est en construction, n'hésitez pas à faire part de vos expériences et suggestions sur notre
-            forum !
-        </div>
     </div>
 </div>
 
-<div class="container">
+<div class="container my-3">
+    <h2>Dernières publications</h2>
+
     <div class="row">
-        <div class="col-md-6">
-            <p>
-                Nos dernières activités dans la timeline Twitter
-                <i class="fa fa-arrow-right"></i>
-            </p>
-
-            <p>Suivez-nous sur les réseaux sociaux:</p>
-
-            <ul>
-                {% for link in site.social_links %}
-                <li><a href="{{ link.url }}" title="{{ link.title }}">
-                    <i class="fa fa-{{ link.icon }}"></i>
-                    {{ link.label }}
-                </a></li>
-                {% endfor %}
-            </ul>
+        {% for post in site.posts limit:6 %}
+        <div class="col-md-4">
+            {% include post-card.html %}
         </div>
-        <div class="col-md-6">
-            <a class="twitter-timeline" data-lang="fr" data-height="1000" href="https://twitter.com/evromandie">Tweets
-                by RobotsJU</a>
-        </div>
+        {% cycle '', '', '</div><div class="row">' %}
+        {% endfor %}
     </div>
-</div>
 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <p><a href="/publications">Toutes les publications</a></p>
+</div>

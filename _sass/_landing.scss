@@ -1,5 +1,5 @@
 .landing-head-wrap {
-    background: url(/media/landing-hero.jpg?v=20180912) no-repeat center center;
+    background: url(/media/landing-hero.jpg?v=5365c98d195230eeb54a5f8c1d76c1be) no-repeat center center;
     background-size: cover;
 
     &::before {
@@ -9,9 +9,9 @@
         top: 0;
         left: 0;
         right: 0;
-        height: 60px;
-        box-shadow: 0 0 30px 30px rgba(white, 0.8);
-        background: rgba(white, 0.8);
+        height: 62px;
+        box-shadow: 0 0 30px 30px rgba(white, 0.95);
+        background: rgba(white, 0.95);
     }
 }
 
@@ -22,18 +22,30 @@
 .landing-motto {
     text-transform: uppercase;
     color: white;
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: bold;
-    line-height: 1.1;
+    line-height: 1.4;
     text-align: center;
-    text-shadow: 2px 2px 0 $brand-color-grey, 2px -2px 0 $brand-color-grey, -2px 2px 0 $brand-color-grey, -2px -2px 0 $brand-color-grey, 1px 1px 0 $brand-color-grey, 1px -1px 0 $brand-color-grey, -1px 1px 0 $brand-color-grey, -1px -1px 0 $brand-color-grey;
-    margin: 15vh 0;
+    margin: 25vh 0 2vh;
+
+    .text-background {
+        background: $brand-color-blue;
+        padding: 0.2em;
+    }
+
+    @media (min-width: 500px) {
+        font-size: 2em;
+    }
+
+    @media (min-width: 1200px) {
+        font-size: 3em;
+    }
 }
 
 .landing-what {
     background: #f3f3f3f3;
     color: #333;
-    padding: 5vh 0;
+    padding: 2vh 0;
     margin-bottom: 20px;
 }
 
@@ -48,7 +60,7 @@
         color: inherit;
         text-align: center;
         border: 2px solid #ddd;
-        padding: 5vh 10px 2vh;
+        padding: 2.5vh 10px 1vh;
 
         &:hover {
             border-color: #aaa;
@@ -66,17 +78,7 @@
             display: block;
             font-style: normal;
             color: #999;
-            margin-top: 3vh;
+            margin-top: 1.5vh;
         }
     }
-}
-
-.build-in-progress {
-    border: 2px dashed #ddd;
-    border-radius: 20px;
-    padding: 30px 20px;
-    text-align: center;
-    width: 50em;
-    max-width: 100%;
-    margin: 20px auto 0;
 }

@@ -17,6 +17,16 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+
+excerpt_separator: <!--more-->
+permalink: /:year/:month/:day/:title
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
 matomo:
     url: https://analytics.kilowhat.net/
     id: 31

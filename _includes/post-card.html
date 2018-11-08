@@ -1,0 +1,30 @@
+<article class="card mb-3">
+    <a class="post-thumbnail" href="{{ post.url }}">
+        {% if post.youtube %}
+        <img class="card-img-top" src="https://img.youtube.com/vi/{{ post.youtube }}/0.jpg" alt="Miniature vidéo">
+        <i class="fa fa-play"></i>
+        {% elsif post.flickr %}
+        <img class="card-img-top" src="{{ post.flickr_thumbnail }}" alt="Aperçu de la photo du post">
+        {% else %}
+        <i class="fa fa-bullhorn"></i>
+        {% endif %}
+    </a>
+    <div class="card-body">
+        <p class="card-text text-muted">
+            {% if post.youtube %}
+            <i class="fa fa-youtube-play"></i>
+            Vidéo
+            {% elsif post.flickr %}
+            <i class="fa fa-camera"></i>
+            Photos
+            {% else %}
+            <i class="fa fa-bullhorn"></i>
+            Article
+            {% endif %}
+            |
+            {{ post.date | date: "%-d %b %Y" }}
+        </p>
+
+        <h5 class="card-title"><a href="{{ post.url }}">{{ post.title | escape }}</a></h5>
+    </div>
+</article>
