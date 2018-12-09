@@ -4,14 +4,12 @@ permalink: /evenements
 title: Événements
 ---
 
-## 30 novembre 2018
-
-Remise du Prix Jeunesse Jura. Venez me soutenir !
-
-[Plus d'infos sur ma participation au Prix ici](/2018/11/01/ev-romandie-participe-au-prix-jeunesse)
-
-[Communiqué de presse du Canton du Jura](https://www.jura.ch/CHA/SIC/Centre-medias/Communiques-2018/Prix-jeunesse-Jura-5-projets-en-lice-pour-la-finale-a-Cinemont.html)
-
----
-
+EV Romandie maintient à jour un calendrier des événements relatifs à la mobilité électrique en Suisse romande et alentours.
 N'hésitez pas à partager un événement [sur le forum]({{ site.forum_url }}) et nous l'ajouterons ici.
+
+<iframe class="w-100" src="https://calendar.google.com/calendar/embed?src=5h8f9jbmjsp0j6c7d5m67acnjg%40group.calendar.google.com&ctz=Europe%2FZurich" style="border: 0" height="800" frameborder="0" scrolling="no"></iframe>
+
+## Plus d'événements
+
+- [Événements Tesla](https://www.tesla.com/fr_CH/events)
+- [Événements Tesla Model3](https://www.tesla.com/fr_CH/events/Meet-Model3-CH)
