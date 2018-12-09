@@ -26,8 +26,9 @@ Nous avons également une [page dédiée](/reseaux) avec un tableau de compatibi
   - [Smotion](http://www.smotion.ch/) (Jura, Jura bernois)
   - [Vmotion](http://www.vmotion.ch/) (Neuchatel)
 - [EVite](https://www.swiss-emobility.ch/fr/EVite/EVite-Ladestationen/index.php) (réseau)
-- [Move](http://www.move.ch/fr/) (passe avec abonnement, plusieurs partenaires)
+- [Move](https://www.move.ch/fr/) (passe avec abonnement, plusieurs partenaires)
 - [M-Way / Migros](https://generation-m.migros.ch/fr/preserver-la-planete/astuces-et-outils/recharger-voiture-electrique.html) (bornes gratuites sur les parkings des magasins Migros)
+- [GOFAST](https://www.gofast.swiss/fr) (infrastructure, plusieurs partenaires)
 - [Liste des réseaux suisses sur Openchargemap](https://openchargemap.org/site/country/switzerland/networks)
 
 International:
@@ -37,6 +38,13 @@ International:
 - [Supercharge.info](https://supercharge.info/) (liste non officielle des super-chargeurs Tesla)
 - [Carte des chargeurs Tesla](https://www.tesla.com/fr_CH/findus) (officielle)
 - [eCarUp](https://web.ecarup.com/) (solution de partage de chargeurs privés/professionnels)
+
+News des réseaux suisses:
+
+- [GOFAST](https://www.gofast.swiss/fr/nouvelles)
+- [EVPASS](https://evpass.ch/Common/News)
+- [Move](https://www.move.ch/fr/news/)
+- [Swisscharge](https://www.swisscharge.ch/news/) (DE)
 
 ## Louer un véhicule électrique
 
