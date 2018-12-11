@@ -38,6 +38,8 @@ main_menu:
     url: /reseaux
   - title: Liens et ressources
     url: /ressources
+  - title: Glossaire
+    url: /glossaire
   - title: À propos
     url: /a-propos
 

@@ -1,0 +1,70 @@
+- en: Electric Vehicle
+  en_abbr: EV
+  en_wiki: Electric_vehicle
+  fr: Véhicule électrique
+  fr_wiki: Véhicule_électrique
+- en: Battery Electric Vehicle
+  en_abbr: BEV
+  fr: Véhicule électrique à batterie
+  definition: Un véhicule à propulsion électrique uniquement alimenté par des batteries
+- en: Plug-in Hybrid Electric Vehicle
+  en_abbr: PHEV
+  fr: Véhicule hybride électrique rechargeable
+- en: Fuel Cell Electric Vehicle
+  en_abbr: FCEV
+  en_wiki: Hydrogen_vehicle
+  fr: Véhicule électrique à pile à combustible
+  fr_wiki: Véhicule_à_hydrogène
+  definition: Véhicule propulsé à l'hydrogène via la technologie de la pile à combustible
+- en: Range extender
+  en_abbr: EREV, REEV, BEVx
+  en_wiki: Range_extender_(vehicle)
+  definition: Véhicule électrique à batterie équipé d'un générateur non-électrique permettant d'augmenter l'autonomie. Est un type de PHEV
+- en: Granny Charger, Mobile Connector (Tesla)
+  fr: Chargeur grand-mère, Flexi chargeur (Renault), Connecteur Mobile (Tesla)
+  definition: Chargeur portable qui se connecte à une prise domestique 230V
+- en: Battery Management Système
+  en_abbr: BMS
+  en_wiki: Battery_management_system
+  fr: Système de contrôle des batteries d'accumulateurs
+  fr_wiki: Système_de_contrôle_des_batteries_d'accumulateurs
+  definition: Système de gestion de la santé de la batterie d'un véhicule électrique
+- en: Media Control Unit
+  en_abbr: MCU
+  definition: Désigne l'écran et le système multimédia sur une Tesla
+- en: Fast Charging
+  fr: Charge rapide
+  definition: Charge en courant continu (DC), souvent dès 40kW ou 50kW et jusqu'à 350kW théorique
+- en: Slow Charging
+  fr: Charge lente
+  definition: Charge en courant alternatif (AC), avec certains chargeurs jusqu'à 43kW
+- en: Standard charger (Chargemap)
+  fr: Chargeur standard, Chargeur lent (Renault)
+  definition: Un point de recharge AC de moins de 11kW
+- en: Mid-accelerated charger
+  fr: Chargeur Semi-accéléré
+  definition: Un point de recharge AC de 11kW ou supérieur (Chargemap)
+- en: Accelerated Charger
+  fr: Chargeur accéléré
+  definition: Un point de recharge AC de 11kW ou supérieur (Renault) / de 22kW ou supérieur (Chargemap)
+- en: Supercharging
+  fr: Supercharge
+  definition: Charge sur un chargeur rapide Tesla (Supercharger)
+- en: Combined Charging System
+  en_abbr: CCS
+  en_wiki: Combined_Charging_System
+  fr: Système de charge combiné
+  fr_wiki: Système_de_charge_combiné_(CCS)
+  definition: Connecteur de charge rapide en courant continu. Le connecteur CCS2, basé sur le connecteur type 2 est principalement déployé en Europe
+- en: CHAdeMO
+  en_wiki: CHAdeMO
+  fr: CHAdeMO
+  definition: Connecteur de charge rapide en courant continu. Installé principalement au Japon mais aussi en Europe
+- en: Type 2, Mennekes
+  en_wiki: Type_2_connector
+  fr: Type 2
+  definition: Connecteur de recharge en courant alternatif. Sélectionné comme la prise de recharge officielle dans l'Union Européenne
+- en: Type 1, J1772
+  en_wiki: SAE_J1772
+  fr: Type 1
+  definition: Connecteur de recharge en courant alternatif. Présent sur de nombreux véhicules hybrides ainsi que d'anciens véhicules à batterie

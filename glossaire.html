@@ -1,0 +1,56 @@
+---
+layout: page
+permalink: /glossaire
+title: Glossaire
+---
+
+<p>
+    Beaucoup de termes en rapport avec la mobilité électrique sont en anglais.
+    J'ai donc compilé ici une liste des définition pour les termes les plus courants ainsi que leur traduction française.
+</p>
+
+<table class="table">
+
+    <thead>
+    <tr>
+        <th>Anglais</th>
+        <th>Français</th>
+        <th>Définition</th>
+    </tr>
+    </thead>
+
+    {% for word in site.data.glossaire %}
+
+    <tr>
+        <td>
+            {% if word.en %}
+            {{ word.en }}
+            {% endif %}
+            {% if word.en_abbr %}
+            ({{ word.en_abbr }})
+            {% endif %}
+            {% if word.en_wiki %}
+            <a href="https://en.wikipedia.org/wiki/{{ word.en_wiki }}" title="Sur Wikipedia (Anglais)" target="_blank" rel="nofollow"><i class="fa fa-wikipedia-w"></i></a>
+            {% endif %}
+        </td>
+        <td>
+            {% if word.fr %}
+            {{ word.fr }}
+            {% endif %}
+            {% if word.fr_abbr %}
+            ({{ word.fr_abbr }})
+            {% endif %}
+            {% if word.fr_wiki %}
+            <a href="https://fr.wikipedia.org/wiki/{{ word.fr_wiki }}" title="Sur Wikipedia (Français)" target="_blank" rel="nofollow"><i class="fa fa-wikipedia-w"></i></a>
+            {% endif %}
+        </td>
+        <td>
+            {% if word.definition %}
+            {{ word.definition }}
+            {% endif %}
+        </td>
+    </tr>
+
+    {% endfor %}
+
+</table>
