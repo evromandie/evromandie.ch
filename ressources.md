@@ -16,6 +16,11 @@ N'hésitez pas à faire des propositions [sur le forum]({{ site.forum_url }}).
 - [Académie de la mobilité](https://www.mobilityacademy.ch/akademie-fr/index.php)
 - [Eco-energie](http://www.eco-energie.ch/cms2/)
 
+## Associations
+
+- [Tesla Owners Club Switzerland](https://teslaclub.ch/)
+- [Tesla Owners Club Helvetia](https://teslaowners.ch/)
+
 ## Réseaux
 
 Suisse:
