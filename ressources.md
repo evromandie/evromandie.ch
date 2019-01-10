@@ -57,6 +57,8 @@ News des réseaux suisses:
   - Vous avez trouvé un autre véhicule électrique sur Sharoo ? Ajoutons-le ici !
 - [Europcar](https://www.europcar.ch/fr) - Tesla Model S et X, mais il ne semble pas y avoir une liste des lieux où elles sont dispo
 - Sixt - Tesla (la page ne semble plus exister, ont-ils stoppé ?)
+- [Tesla4all](https://tesla4all.ch/) - Tesla Model S et X ("actif sur toute la Suisse" ?)
+- [proTesla](https://www.protesla.ch/) - Tesla Model S et X (n'importe où en Suisse)
 
 ## Sites d'information
 
