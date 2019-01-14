@@ -42,6 +42,8 @@ main_menu:
     url: /glossaire
   - title: À propos
     url: /a-propos
+  - title: Discord
+    url: /discord
 
 forum_url: https://forum.evromandie.ch/
 
