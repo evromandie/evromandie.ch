@@ -1,0 +1,238 @@
+- name: I-Pace
+  make: Jaguar
+  wiki: Jaguar_I-Pace
+  plugs: [type2, ccs2]
+  dc_speed: 100
+  ac_speed: 7.2
+  since: 2018
+  battery: 90
+- name: Model 3
+  make: Tesla
+  url: https://www.tesla.com/fr_CH/model3
+  wiki: Tesla_Model_3
+  since: 2017
+  plugs: [type2, ccs2]
+  battery: 75
+  seats: 5
+- name: ZOE
+  make: Renault
+  url: https://fr.renault.ch/electrique/zoe.html
+  wiki: Renault_ZOE
+  plugs: type2
+  ac_speed: 22, 43
+  power: 65 - 80
+  since: 2012, 2017
+  battery: 22, 41
+  variants: Life, Zen, Intens
+  seats: 5
+- name: Ampera-e
+  make: Opel
+  wiki: Opel_Ampera#Ampera-e
+  wiki_en: Chevrolet_Bolt
+  comment: équivalent Chevrolet Bolt
+  range_nedc: 520
+  range_wltp: 380
+  battery: 60
+  ac_speed: 7.2
+  dc_speed: 80
+  plugs: [type1, ccs1]
+- name: IONIQ Electric
+  make: Hyundai
+  wiki: Hyundai_Ioniq#Version_100%_%C3%A9lectrique
+  since: 2016
+  dc_speed: 70
+  power: 88
+  battery: 28
+  range_nedc: 280
+- name: Model S
+  make: Tesla
+  url: https://www.tesla.com/fr_CH/models
+  wiki: Tesla_Model_S
+  since: 2012, 2016
+  battery: 60 - 100
+  plugs: [type2, tesla]
+  seats: 5, 7
+- name: Model X
+  make: Tesla
+  url: https://www.tesla.com/fr_CH/modelx
+  wiki: Tesla_Model_X
+  since: 2015
+  battery: 80 - 100
+  plugs: [type2, tesla]
+  seats: 5, 7
+- name: e-golf
+  make: VW
+  wiki: Volkswagen_Golf_VII#Volkswagen_e-Golf
+  since: 2014, 2017
+  range_nedc: 190
+  battery: 35.8
+  ac_speed: 7.2
+  seats: 5
+- name: i3
+  make: BMW
+  wiki: BMW_i3
+  plugs: [type2, ccs2]
+  battery: 19, 22, 33, 42.2
+  seats: 4
+- name: Soul EV
+  make: Kia
+  wiki: Kia_Soul_EV
+  since: 2014
+  plugs: [type1, chademo]
+  ac_power: 6,6
+  dc_power: 43
+- name: Twizy
+  make: Renault
+  wiki: Renault_Twizy
+  since: 2011
+  plugs: t13
+  max_speed: 45, 80
+  power: 4 - 13
+  battery: 6.1
+  seats: 2
+- name: Leaf
+  make: Nissan
+  wiki: Nissan_Leaf
+  since: 2010
+  retired: 2017
+  plugs: [type1, chademo]
+  power: 80
+  battery: 24, 30
+  dc_speed: 50
+  ac_speed: 6.6
+- name: New Leaf
+  make: Nissan
+  wiki: Nissan_Leaf
+  since: 2018
+  plugs: [type2, chademo]
+  power: 110
+  battery: 40
+  range_epa: 243
+  ac_speed: 6.6
+  dc_speed: 100
+- name: Roadster
+  make: Tesla
+  wiki: Tesla_Roadster
+  since: 2008
+  retired: 2012
+  seats: 2
+- name: Kangoo E
+  make: Renault
+  url: https://fr.renault.ch/electrique/kangoo-ze.html
+  wiki: Renault_Kangoo_II#Kangoo_ZE
+  plugs: type2
+- name: Fluence ZE
+  make: Renault
+  wiki: Renault_Fluence
+  since: 2009
+  retired: 2014
+  power: 70
+  plugs: t13
+  ac_speed: 3
+  battery: 22
+  comment: Variante Samsung SM3 toujours dispo en Corée du Sud
+- name: e-tron quattro
+  make: Audi
+  wiki: Audi_e-tron_quattro
+  since: 2019
+  plugs: [type2, ccs2]
+  battery: 95
+  dc_speed: 150
+  range_wltp: 400
+  power: 265 - 300
+- name: EQ fortwo
+  make: Smart
+  url: https://www.smart.com/ch/fr/index/smart-eq-fortwo-453.html
+  power: 60
+  battery: 17.6
+  ac_speed: 22
+  seats: 2
+- name: EQ forfour
+  make: Smart
+  url: https://www.smart.com/ch/fr/index/smart-eq-forfour-453.html
+  power: 60
+  battery: 17.6
+  ac_speed: 22
+  seats: 4
+- name: e-up
+  make: VW
+  wiki: Volkswagen_up!#e-Up!
+  since: 2016
+  power: 4 - 13
+- name: Master ZE
+  make: Renault
+  url: https://fr.renault.ch/electrique/master-ze.html
+  power: 57
+  battery: 33
+- name: C-ZERO
+  make: Citroen
+  wiki: Mitsubishi_i_MiEV_-_Peugeot_iOn_-_Citroën_C-ZERO
+  power: 47
+  battery: 14.5
+  plugs: [type1, chademo]
+- name: i-MiEV
+  make: Mitsubishi
+  wiki: Mitsubishi_i_MiEV_-_Peugeot_iOn_-_Citroën_C-ZERO
+- name: iOn
+  make: Peugeot
+  wiki: Mitsubishi_i_MiEV_-_Peugeot_iOn_-_Citroën_C-ZERO
+- name: ECO
+  make: HITEC
+  url: https://hitec-car.ch/ecocar/
+  power: 3, 7.5
+  battery: 1.2, 1.4
+- name: Electric
+  make: Mia
+  wiki: Mia_(voiture_électrique)
+  since: 2011
+  retired: 2014
+  power: 18
+  plugs: t13
+  ac_speed: 3.3
+  battery: 8, 12
+  seats: 3, 4
+- name: Ed
+  make: Smart
+- name: Zero Classic
+  make: Tazzari
+  wiki_en: Tazzari_Zero
+- name: E-Mehari
+  make: Citroen
+- name: 500e
+  make: Fiat
+  comparis: fiat/500/elektro
+  wiki: Fiat_500_(2007)#La_Fiat_500e
+  power: 83
+  battery: 24
+  seats: 4
+- name: e-NV200
+  make: Nissan
+  wiki: Nissan_NV200#Versions_électriques_e-NV200
+  since: 2014
+  battery: 24, 40
+- name: Partner Electric
+  make: Peugeot
+  wiki_en: Citroën_Berlingo#Electric_version
+  since: 1998
+  retired: 2005
+- name: Microlino
+  make: Micro Mobility Systems
+  url: https://www.micro-mobility.com/en/experience-micro/microlino
+  wiki: Microlino
+  since: 2018
+  power: 15
+  battery: 8.8, 14.4
+  max_speed: 90
+- name: Kona Electric
+  make: Hyundai
+  wiki: Hyundai_Kona#Kona_Electric
+  since: 2018
+  plugs: [type2, ccs2]
+  plugs_us: [type1, ccs1]
+  power: 100, 150
+  battery: 39, 64
+  ac_speed: 7.2
+  dc_speed: 70 - 100 ?
+  range_wltp: 312, 482
+  max_speed: 155, 167
+  0to100: 9.7, 7.6
