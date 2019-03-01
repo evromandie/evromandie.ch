@@ -57,14 +57,23 @@ layout: default
     <h2>Dernières publications</h2>
 
     <div class="row">
-        {% for post in site.posts limit:6 %}
-        <div class="col-md-4">
-            {% include post-card.html %}
+        <div class="col-md-6 col-lg-8">
+            <div class="row">
+                {% for post in site.posts limit:6 %}
+                    <div class="col-lg-6">
+                        {% include post-card.html %}
+                    </div>
+                    {% cycle '', '</div><div class="row">' %}
+                {% endfor %}
+            </div>
+
+            <p><a href="/publications">Toutes les publications</a></p>
         </div>
-        {% cycle '', '', '</div><div class="row">' %}
-        {% endfor %}
+        <div class="col-md-6 col-lg-4">
+            <a class="twitter-timeline" data-lang="fr" data-height="1200" href="https://twitter.com/evromandie">Tweets de @evromandie</a>
+        </div>
     </div>
 
-
-    <p><a href="/publications">Toutes les publications</a></p>
 </div>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
