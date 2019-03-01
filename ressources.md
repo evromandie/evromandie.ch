@@ -21,6 +21,18 @@ N'hésitez pas à faire des propositions [sur le forum]({{ site.forum_url }}).
 - [Tesla Owners Club Switzerland](https://teslaclub.ch/)
 - [Tesla Owners Club Helvetia](https://teslaowners.ch/)
 
+## Groupes Facebook
+
+Romandie:
+
+- [Club Tesla Suisse romande](https://www.facebook.com/groups/ClubTeslaSuisseRomande/) >500 membres
+
+Francophone:
+
+- [Renault ZOE Francophone](https://www.facebook.com/groups/RenaultZoeFrancophone/) >2k membres
+- [Voiture électrique](https://www.facebook.com/groups/voiture.electrique/) >5k membres, "animé par automobile-propre.com"
+- [Voiture électrique](https://www.facebook.com/groups/voitureselectrique/) >500 membres
+
 ## Réseaux
 
 Suisse:
@@ -62,8 +74,9 @@ News des réseaux suisses:
   - Vous avez trouvé un autre véhicule électrique sur Sharoo ? Ajoutons-le ici !
 - [Europcar](https://www.europcar.ch/fr) - Tesla Model S et X, mais il ne semble pas y avoir une liste des lieux où elles sont dispo
 - Sixt - Tesla (la page ne semble plus exister, ont-ils stoppé ?)
-- [Tesla4all](https://tesla4all.ch/) - Tesla Model S et X ("actif sur toute la Suisse" ?)
+- [Tesla4all](https://tesla4all.ch/) - Tesla Model S et X - Points de collecte ou sur toute la Suisse
 - [proTesla](https://www.protesla.ch/) - Tesla Model S et X (n'importe où en Suisse)
+- [e-CarUs](https://ecarus-mobi.ch/) - Renault Zoe - Genève, Lausanne, Nyon, Montreux, Yverdon et communes alentours
 
 ## Sites d'information
 
