@@ -78,6 +78,14 @@ News des réseaux suisses:
 - [proTesla](https://www.protesla.ch/) - Tesla Model S et X (n'importe où en Suisse)
 - [e-CarUs](https://ecarus-mobi.ch/) - Renault Zoe - Genève, Lausanne, Nyon, Montreux, Yverdon et communes alentours
 
+## Planification d'itinéraires
+
+- [A Better Routeplanner](https://abetterrouteplanner.com/) - Compatible avec de nombreux modèles de véhicules
+- [EV Trip Planner](https://www.evtripplanner.com/) - Chargeurs à proximité de l'itinéraire seulement, Modèles Tesla built-in, option de véhicule personnalisé
+- [EVTripping](https://evtripping.com/) - Tesla uniquement, nécessite un compte
+- [e-tankstellen-finder](https://ev-charging.com/eu/en/elektrotankstellen) - Europe - Ne fait que lister les chargeurs à proximité de l'itinéraire
+- [EV Maps](https://evmaps.co.uk/) - UK seulement
+
 ## Sites d'information
 
 En français:
