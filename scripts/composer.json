@@ -1,0 +1,15 @@
+{
+    "name": "evromandie/evromandie.ch",
+    "description": "Scripts to update evromandie.ch",
+    "type": "project",
+    "require": {
+        "symfony/yaml": "^4.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com"
+        }
+    ]
+}

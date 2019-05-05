@@ -99,26 +99,7 @@ En anglais:
 
 ## Chaînes YouTube
 
-N'hésitez pas à partager des chaînes sur notre forum, nous les ajouterons ici !
-
-En français:
-
-- [EV Romandie](https://www.youtube.com/channel/UCNGDiG3zqA-sUW0utDszY0Q) (c'est nous !)
-- [Électron libre](https://www.youtube.com/channel/UCDeFzyRGq1I4QzSW_FnBJ5w)
-- [T'es au courant](https://www.youtube.com/channel/UCoXYYfEwvxeK89WuN1txsIw)
-
-En anglais:
-
-- [Now You Know](https://www.youtube.com/channel/UCMFmrcGuFNu_59L0pHcR0OA) (USA)
-- [Teslanomics](https://www.youtube.com/channel/UCbEbf0-PoSuHD0TgMbxomDg) (USA)
-- [Like Tesla](https://www.youtube.com/channel/UCLdTYHvdML-EXsPeiiYJLqA) (USA)
-- [Fully Charged](https://www.youtube.com/user/fullychargedshow) (UK)
-- [Model 3 Owners Club](https://www.youtube.com/channel/UCry4jW5bcj9DIs7ZwA95Ylw) (Canada)
-- [Bjørn Nyland](https://www.youtube.com/user/bjornnyland) (Norvège)
-- [E for Electric](https://www.youtube.com/channel/UCNX6A--KWiqE_F45EcPqmNw) (USA)
-- [Rich Rebuilds](https://www.youtube.com/channel/UCfV0_wbjG8KJADuZT2ct4SA) (USA)
-- [Nicolas Raimo (EV Nick)](https://www.youtube.com/channel/UCA5BxqNslvqgVl61NvRTLjQ) (UK)
-- [Zero Tailpipe](https://www.youtube.com/user/waterstink) (UK)
+Déplacé vers une [page dédiée](/youtube).
 
 ## Matériel
 

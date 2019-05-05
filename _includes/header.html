@@ -14,11 +14,28 @@
                     {% assign current = '' %}
                     {% if page.url == link.url %}{% assign current = ' active' %}{% endif %}
                     {% if page.url == '/index.html' and link.url == '/' %}{% assign current = ' active' %}{% endif %}
-                    <li class="nav-item{{ current }}">
+                    {% if link.children %}{% for child in link.children %}{% if page.url == link.url %}{% assign current = ' active' %}{% endif %}{% endfor %}{% endif %}
+                    <li class="nav-item{{ current }}{% if link.children %} dropdown{% endif %}">
+                        {% if link.children %}
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ link.title }}
+                        </a>
+                        <div class="dropdown-menu">
+                            {% for child in link.children %}
+                            {% assign current = '' %}
+                            {% if page.url == child.url %}{% assign current = ' active' %}{% endif %}
+                            <a class="dropdown-item" href="{{ child.url }}">
+                                {{ child.title }}
+                                {% if child.url contains '://' %} <i class="fa fa-external-link"></i>{% endif %}
+                            </a>
+                            {% endfor %}
+                        </div>
+                        {% else %}
                         <a href="{{ link.url }}" class="nav-link">
                             {{ link.title }}
                             {% if link.url contains '://' %} <i class="fa fa-external-link"></i>{% endif %}
                         </a>
+                        {% endif %}
                     </li>
                     {% endfor %}
                     <li class="nav-item nav-item-forum">

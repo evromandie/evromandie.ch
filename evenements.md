@@ -12,4 +12,4 @@ N'hésitez pas à partager un événement [sur le forum]({{ site.forum_url }}) e
 ## Plus d'événements
 
 - [Événements Tesla](https://www.tesla.com/fr_CH/events)
-- [Événements Tesla Model3](https://www.tesla.com/fr_CH/events/Meet-Model3-CH)
+

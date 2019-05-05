@@ -5,18 +5,15 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - scripts
 
 excerpt_separator: <!--more-->
 permalink: /:year/:month/:day/:title
@@ -28,18 +25,24 @@ defaults:
       layout: post
 
 matomo:
-    url: https://analytics.kilowhat.net/
-    id: 31
+  url: https://analytics.kilowhat.net/
+  id: 31
 
 main_menu:
   - title: Événements
     url: /evenements
-  - title: Réseaux et passes
-    url: /reseaux
-  - title: Liens et ressources
-    url: /ressources
-  - title: Glossaire
-    url: /glossaire
+  - title: Chaînes YouTube
+    url: /youtube
+  - title: Resources
+    children:
+      - title: Véhicules disponibles
+        url: /vehicules
+      - title: Réseaux et passes
+        url: /reseaux
+      - title: Glossaire
+        url: /glossaire
+      - title: Autres liens et ressources
+        url: /ressources
   - title: À propos
     url: /a-propos
   - title: Discord

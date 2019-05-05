@@ -1,0 +1,46 @@
+<div class="row">
+  {% for channel in channels %}
+    <div class="col-md-4 mb-3">
+      <a class="card text-body" href="https://www.youtube.com/channel/{{ channel.id }}" target="_blank" rel="noopener">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-4">
+              <img alt="{{ channel.name }}" src="/media/youtube-avatars/{{ channel.id }}.jpg" class="img-fluid youtube-avatar">
+            </div>
+            <div class="col-8">
+              <h5>{{ channel.name }}</h5>
+              <div class="row">
+                <div class="col">
+                  <span class="text-muted">Langue:</span>
+                  {{ channel.lang }}
+                </div>
+                <div class="col">
+                  <span class="text-muted">Pays:</span>
+                  {{ channel.country }}
+                </div>
+              </div>
+            </div>
+          </div>
+          {% if channel.stats %}
+          <div class="row text-center mt-3">
+            <div class="col" title="Nombre de vues totales">
+              <i class="fa fa-eye text-muted" aria-hidden="true"></i>
+              {{ channel.stats.views }}
+            </div>
+            <div class="col" title="Nombre de vidéos">
+              <i class="fa fa-youtube-play text-muted" aria-hidden="true"></i>
+              {{ channel.stats.videos }}
+            </div>
+            <div class="col" title="Nombre d'abonnés">
+              <i class="fa fa-users text-muted" aria-hidden="true"></i>
+              {{ channel.stats.subscribers }}
+            </div>
+          </div>
+          {% endif %}
+        </div>
+      </a>
+    </div>
+  {% cycle channels: '', '', '</div><div class="row">' %}
+  {% endfor %}
+</div>
+

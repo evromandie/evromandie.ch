@@ -1,0 +1,105 @@
+- id: UCNGDiG3zqA-sUW0utDszY0Q
+  name: 'EV Romandie'
+  country: CH
+  lang: fr
+  highlight: 1
+  stats:
+    views: 2k
+    subscribers: 27
+    videos: 20
+- id: UCDeFzyRGq1I4QzSW_FnBJ5w
+  name: 'Électron libre'
+  country: FR
+  lang: fr
+  stats:
+    views: 2.7M
+    subscribers: 8k
+    videos: 236
+- id: UCoXYYfEwvxeK89WuN1txsIw
+  name: 'T''es au courant'
+  country: FR
+  lang: fr
+  stats:
+    views: 1k
+    subscribers: 79
+    videos: 15
+- id: UCMFmrcGuFNu_59L0pHcR0OA
+  name: 'Now You Know'
+  country: US
+  lang: en
+  highlight: 1
+  stats:
+    views: 19.4M
+    subscribers: 103k
+    videos: 737
+- id: UCbEbf0-PoSuHD0TgMbxomDg
+  name: Teslanomics
+  country: US
+  lang: en
+  stats:
+    views: 21.8M
+    subscribers: 131k
+    videos: 407
+- id: UCLdTYHvdML-EXsPeiiYJLqA
+  name: 'Like Tesla'
+  country: US
+  lang: en
+  stats:
+    views: 20.2M
+    subscribers: 102k
+    videos: 197
+- id: UCzz4CoEgSgWNs9ZAvRMhW2A
+  name: 'Fully Charged'
+  stats:
+    views: 58M
+    subscribers: 465k
+    videos: 405
+- id: UCry4jW5bcj9DIs7ZwA95Ylw
+  name: 'Model 3 Owners Club'
+  country: CA
+  lang: en
+  stats:
+    views: 8.5M
+    subscribers: 50k
+    videos: 306
+- id: UCG1QcV31eoSaX4rE8avQL4A
+  name: 'Bjørn Nyland'
+  country: 'NO'
+  lang: en
+  highlight: 1
+  stats:
+    views: 60.4M
+    subscribers: 142k
+    videos: 1255
+- id: UCNX6A--KWiqE_F45EcPqmNw
+  name: 'E for Electric'
+  country: US
+  lang: en
+  stats:
+    views: 6.9M
+    subscribers: 36k
+    videos: 916
+- id: UCfV0_wbjG8KJADuZT2ct4SA
+  name: 'Rich Rebuilds'
+  country: US
+  lang: en
+  stats:
+    views: 43.3M
+    subscribers: 486k
+    videos: 205
+- id: UCA5BxqNslvqgVl61NvRTLjQ
+  name: 'Nicolas Raimo (EV Nick)'
+  country: UK
+  lang: en
+  stats:
+    views: 396k
+    subscribers: 3k
+    videos: 103
+- id: UCYP4fKM2PuLXuSTv-pHL-fg
+  name: 'Zero Tailpipe'
+  country: UK
+  lang: en
+  stats:
+    views: 361k
+    subscribers: 2k
+    videos: 71
