@@ -15,6 +15,7 @@ N'hésitez pas à faire des propositions [sur le forum]({{ site.forum_url }}).
 - [Forum suisse de la mobilité électrique](http://www.forum-elektromobilitaet.ch/fr/home-fr.html)
 - [Académie de la mobilité](https://www.mobilityacademy.ch/akademie-fr/index.php)
 - [Eco-energie](http://www.eco-energie.ch/cms2/)
+- [TeslaWissen](https://teslawissen.ch/) Ressources Tesla en allemand
 
 ## Associations
 
@@ -77,6 +78,7 @@ News des réseaux suisses:
 - [Tesla4all](https://tesla4all.ch/) - Tesla Model S et X - Points de collecte ou sur toute la Suisse
 - [proTesla](https://www.protesla.ch/) - Tesla Model S et X (n'importe où en Suisse)
 - [e-CarUs](https://ecarus-mobi.ch/) - Renault Zoe - Genève, Lausanne, Nyon, Montreux, Yverdon et communes alentours
+- [Eischoll](https://eischoll.ch/aktivitaten/tesla-mieten/) - Une Model S en location, jusqu'en juillet 2019
 
 ## Planification d'itinéraires
 
