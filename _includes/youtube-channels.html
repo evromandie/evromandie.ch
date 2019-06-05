@@ -19,6 +19,23 @@
                   {{ channel.country }}
                 </div>
               </div>
+                {% for category in channel.category %}
+                {% if category == 'edu' %}
+                <span class="badge badge-light">Éducation</span>
+                {% elsif category == 'news' %}
+                <span class="badge badge-light">News</span>
+                {% elsif category == 'test' %}
+                <span class="badge badge-light">Test de véhicules</span>
+                {% elsif category == 'vlog' %}
+                <span class="badge badge-light">Vlog</span>
+                {% elsif category == 'tech' %}
+                <span class="badge badge-light">Réparations et conversions</span>
+                {% elsif category == 'brand' %}
+                <span class="badge badge-light">Marque</span>
+                {% else %}
+                Catégorie inconnue "{{ category }}"
+                {% endif %}
+                {% endfor %}
             </div>
           </div>
           {% if channel.stats %}

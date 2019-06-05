@@ -73,9 +73,6 @@ $yaml = str_replace("\n-\n  ", "\n- ", "\n$yaml");
 // Supprime le retour à la ligne introduit par la méthode ci-dessus
 $yaml = preg_replace("/^\n/", "", $yaml);
 
-// Ajoute le retour de ligne en fin de fichier
-$yaml .= "\n";
-
 // Remplace le fichier source s'il a changé
 if ($yaml !== $channelsFileContent) {
     echo 'Mise à jour du fichier des chaînes' . PHP_EOL;
