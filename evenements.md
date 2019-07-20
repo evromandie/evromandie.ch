@@ -12,4 +12,5 @@ N'hésitez pas à partager un événement [sur le forum]({{ site.forum_url }}) e
 ## Plus d'événements
 
 - [Événements Tesla](https://www.tesla.com/fr_CH/events)
-
+- [Événements GOFAST](https://www.gofast.swiss/fr/events)
+- [Événements Green Motion](https://www.greenmotion.ch/News/News?categoryId=9)
