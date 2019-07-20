@@ -30,61 +30,65 @@ title: YouTube
 <div class="tab-content mt-3">
   <div class="tab-pane fade show active" id="par-langue" role="tabpanel" aria-labelledby="par-langue-tab">
     <h3>Français</h3>
-    {% assign channels = site.data.youtube_channels | where:'lang','fr' %}
+    {% assign channels = site.data.youtube_channels | where:'lang','fr' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
 
     <h3>Anglais</h3>
-    {% assign channels = site.data.youtube_channels | where:'lang','en' %}
+    {% assign channels = site.data.youtube_channels | where:'lang','en' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
 
     <h3>Allemand</h3>
-    {% assign channels = site.data.youtube_channels | where:'lang','de' %}
+    {% assign channels = site.data.youtube_channels | where:'lang','de' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
   </div>
   <div class="tab-pane fade" id="par-pays" role="tabpanel" aria-labelledby="par-pays-tab">
     <h3>Suisse</h3>
-    {% assign channels = site.data.youtube_channels | where:'country','CH' %}
+    {% assign channels = site.data.youtube_channels | where:'country','CH' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
 
     <h3>France</h3>
-    {% assign channels = site.data.youtube_channels | where:'country','FR' %}
+    {% assign channels = site.data.youtube_channels | where:'country','FR' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
 
     <h3>Royaume-uni</h3>
-    {% assign channels = site.data.youtube_channels | where:'country','UK' %}
+    {% assign channels = site.data.youtube_channels | where:'country','UK' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
 
     <h3>Norvège</h3>
-    {% assign channels = site.data.youtube_channels | where:'country','NO' %}
+    {% assign channels = site.data.youtube_channels | where:'country','NO' | sort:'stats.views_raw' | reverse %}
+    {% include youtube-channels.html %}
+
+    <h3>Irlande</h3>
+    {% assign channels = site.data.youtube_channels | where:'country','IR' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
 
     <h3>États-unis</h3>
-    {% assign channels = site.data.youtube_channels | where:'country','US' %}
+    {% assign channels = site.data.youtube_channels | where:'country','US' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
 
     <h3>Canada</h3>
-    {% assign channels = site.data.youtube_channels | where:'country','CA' %}
+    {% assign channels = site.data.youtube_channels | where:'country','CA' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
   </div>
   <div class="tab-pane fade" id="par-categorie" role="tabpanel" aria-labelledby="par-categorie-tab">
     <h3>Éducation</h3>
-    {% assign channels = site.data.youtube_channels | where:'category','edu' %}
+    {% assign channels = site.data.youtube_channels | where:'category','edu' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
 
     <h3>News</h3>
-    {% assign channels = site.data.youtube_channels | where:'category','news' %}
+    {% assign channels = site.data.youtube_channels | where:'category','news' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
 
-  <h3>Tests de véhicules</h3>
-  {% assign channels = site.data.youtube_channels | where:'category','test' %}
-  {% include youtube-channels.html %}
+    <h3>Tests de véhicules</h3>
+    {% assign channels = site.data.youtube_channels | where:'category','test' | sort:'stats.views_raw' | reverse %}
+    {% include youtube-channels.html %}
 
-  <h3>Vlog</h3>
-  {% assign channels = site.data.youtube_channels | where:'category','vlog' %}
-  {% include youtube-channels.html %}
+    <h3>Vlog</h3>
+    {% assign channels = site.data.youtube_channels | where:'category','vlog' | sort:'stats.views_raw' | reverse %}
+    {% include youtube-channels.html %}
 
-  <h3>Réparations et conversions</h3>
-  {% assign channels = site.data.youtube_channels | where:'category','tech' %}
-  {% include youtube-channels.html %}
+    <h3>Réparations et conversions</h3>
+    {% assign channels = site.data.youtube_channels | where:'category','tech' | sort:'stats.views_raw' | reverse %}
+    {% include youtube-channels.html %}
   </div>
 </div>

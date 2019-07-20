@@ -9,13 +9,29 @@ require __DIR__ . '/vendor/autoload.php';
 use Symfony\Component\Yaml\Yaml;
 
 // Formatte un nombre d'une manière similaire au compteur d'abonnés YouTube
-function numberToDisplay($number) {
+function numberToDisplay($number)
+{
     if ($number >= 1000000) {
         return floor($number / 100000) / 10 . 'M';
     }
 
     if ($number >= 1000) {
         return floor($number / 1000) . 'k';
+    }
+
+    return intval($number);
+}
+
+// Formatte un nombre d'une manière similaire au compteur d'abonnés YouTube
+// Mais le conserve en valeur non abrégée pour pouvoir l'utiliser dans un tri
+function numberToRaw($number)
+{
+    if ($number >= 1000000) {
+        return floor($number / 100000) * 100000;
+    }
+
+    if ($number >= 1000) {
+        return floor($number / 1000) * 1000;
     }
 
     return intval($number);
@@ -57,6 +73,7 @@ foreach ($response['items'] as $index => $channel) {
 
         $channels[$i]['stats'] = [
             'views' => numberToDisplay($channel['statistics']['viewCount']),
+            'views_raw' => (int)numberToRaw($channel['statistics']['viewCount']),
             'subscribers' => numberToDisplay($channel['statistics']['subscriberCount']),
             'videos' => intval($channel['statistics']['videoCount']),
         ];
