@@ -5,20 +5,20 @@
   lang: fr
   highlight: 1
   stats:
-    views: 2k
-    views_raw: 2000
-    subscribers: 35
-    videos: 24
+    views: 3k
+    views_raw: 3000
+    subscribers: 37
+    videos: 25
 - id: UCDeFzyRGq1I4QzSW_FnBJ5w
   name: 'Électron libre'
   category: edu
   country: FR
   lang: fr
   stats:
-    views: 3M
-    views_raw: 3000000
-    subscribers: 10k
-    videos: 258
+    views: 3.2M
+    views_raw: 3200000
+    subscribers: 11k
+    videos: 270
 - id: UCoXYYfEwvxeK89WuN1txsIw
   name: 'T''es au courant'
   category: edu
@@ -27,7 +27,7 @@
   stats:
     views: 1k
     views_raw: 1000
-    subscribers: 78
+    subscribers: 77
     videos: 15
 - id: UCMFmrcGuFNu_59L0pHcR0OA
   name: 'Now You Know'
@@ -38,50 +38,50 @@
   lang: en
   highlight: 1
   stats:
-    views: 22.2M
-    views_raw: 22200000
-    subscribers: 116k
-    videos: 779
+    views: 24M
+    views_raw: 24000000
+    subscribers: 129k
+    videos: 794
 - id: UCbEbf0-PoSuHD0TgMbxomDg
   name: Teslanomics
   category: edu
   country: US
   lang: en
   stats:
-    views: 24.6M
-    views_raw: 24600000
-    subscribers: 149k
-    videos: 421
+    views: 25.3M
+    views_raw: 25300000
+    subscribers: 152k
+    videos: 425
 - id: UCLdTYHvdML-EXsPeiiYJLqA
   name: 'Like Tesla'
   category: edu
   country: US
   lang: en
   stats:
-    views: 22.7M
-    views_raw: 22700000
-    subscribers: 114k
-    videos: 204
+    views: 23.3M
+    views_raw: 23300000
+    subscribers: 116k
+    videos: 208
 - id: UCzz4CoEgSgWNs9ZAvRMhW2A
   name: 'Fully Charged'
   category: test
   country: UK
   lang: en
   stats:
-    views: 65.7M
-    views_raw: 65700000
-    subscribers: 516k
-    videos: 424
+    views: 70.2M
+    views_raw: 70200000
+    subscribers: 542k
+    videos: 432
 - id: UCry4jW5bcj9DIs7ZwA95Ylw
   name: 'Model 3 Owners Club'
   category: edu
   country: CA
   lang: en
   stats:
-    views: 8.8M
-    views_raw: 8800000
+    views: 8.9M
+    views_raw: 8900000
     subscribers: 51k
-    videos: 326
+    videos: 332
 - id: UCG1QcV31eoSaX4rE8avQL4A
   name: 'Bjørn Nyland'
   category:
@@ -91,30 +91,30 @@
   lang: en
   highlight: 1
   stats:
-    views: 64.6M
-    views_raw: 64600000
-    subscribers: 148k
-    videos: 1329
+    views: 66.2M
+    views_raw: 66200000
+    subscribers: 150k
+    videos: 1365
 - id: UCNX6A--KWiqE_F45EcPqmNw
   name: 'E for Electric'
   category: news
   country: US
   lang: en
   stats:
-    views: 8.4M
-    views_raw: 8400000
-    subscribers: 40k
-    videos: 1063
+    views: 9M
+    views_raw: 9000000
+    subscribers: 43k
+    videos: 1095
 - id: UCfV0_wbjG8KJADuZT2ct4SA
   name: 'Rich Rebuilds'
   category: tech
   country: US
   lang: en
   stats:
-    views: 49.6M
-    views_raw: 49600000
-    subscribers: 542k
-    videos: 189
+    views: 52.7M
+    views_raw: 52700000
+    subscribers: 569k
+    videos: 194
 - id: UCA5BxqNslvqgVl61NvRTLjQ
   name: 'Nicolas Raimo (EV Nick)'
   category:
@@ -123,30 +123,30 @@
   country: UK
   lang: en
   stats:
-    views: 510k
-    views_raw: 510000
+    views: 558k
+    views_raw: 558000
     subscribers: 4k
-    videos: 116
+    videos: 121
 - id: UCYP4fKM2PuLXuSTv-pHL-fg
   name: 'Zero Tailpipe'
   category: edu
   country: UK
   lang: en
   stats:
-    views: 470k
-    views_raw: 470000
+    views: 507k
+    views_raw: 507000
     subscribers: 2k
-    videos: 81
+    videos: 86
 - id: UCrS9_hhFc28hiSddCZvLQIA
   name: 'Y''a du Potentiel'
   category: edu
   country: FR
   lang: fr
   stats:
-    views: 725k
-    views_raw: 725000
-    subscribers: 6k
-    videos: 21
+    views: 790k
+    views_raw: 790000
+    subscribers: 7k
+    videos: 20
 - id: UC9Hl6ZV4RRciY07TB4R_h2g
   name: 'Jürg Thomann'
   category: vlog
@@ -155,7 +155,7 @@
   stats:
     views: 27k
     views_raw: 27000
-    subscribers: 44
+    subscribers: 45
     videos: 53
 - id: UCA8N_0F-KYXSyT5OSJzSizA
   name: DÆrik
@@ -165,19 +165,19 @@
   country: US
   lang: en
   stats:
-    views: 11.7M
-    views_raw: 11700000
-    subscribers: 46k
-    videos: 479
+    views: 12.3M
+    views_raw: 12300000
+    subscribers: 48k
+    videos: 488
 - id: UC31O6BEWzx4D--YPw9aJABA
   name: Ingineerix
   category: tech
   country: US
   lang: en
   stats:
-    views: 892k
-    views_raw: 892000
-    subscribers: 16k
+    views: 918k
+    views_raw: 918000
+    subscribers: 17k
     videos: 25
 - id: UCOM_BvWUjEDBcWFXaoupM1g
   name: i1Tesla
@@ -185,10 +185,10 @@
   country: US
   lang: en
   stats:
-    views: 9.3M
-    views_raw: 9300000
-    subscribers: 28k
-    videos: 425
+    views: 9.5M
+    views_raw: 9500000
+    subscribers: 29k
+    videos: 440
 - id: UCCEPP71wN4Z4NOZQ2XQSncw
   name: 'REMI CHANICS'
   category: vlog
@@ -197,16 +197,16 @@
   stats:
     views: 27k
     views_raw: 27000
-    subscribers: 109
-    videos: 21
+    subscribers: 116
+    videos: 23
 - id: UCkORGsAMC0xX6UxWW9VsSVA
   name: 'Renault Zoe & ZE Owners Club'
   category: edu
   country: UK
   lang: en
   stats:
-    views: 89k
-    views_raw: 89000
+    views: 95k
+    views_raw: 95000
     subscribers: 1k
     videos: 55
 - id: UCE7mwGfnP3uVp8-iNbVMjDw
@@ -217,7 +217,7 @@
   stats:
     views: 5.2M
     views_raw: 5200000
-    subscribers: 48k
+    subscribers: 49k
     videos: 45
 - id: UC8sR7IAMOHKV-S_oz3JH3qw
   name: 'Damien Maguire'
@@ -227,38 +227,38 @@
   stats:
     views: 1.9M
     views_raw: 1900000
-    subscribers: 12k
-    videos: 490
+    subscribers: 13k
+    videos: 496
 - id: UCkcpAX1PqQWcR44D19kVX7Q
   name: 'Tesla Raj'
   category: edu
   country: US
   lang: en
   stats:
-    views: 867k
-    views_raw: 867000
-    subscribers: 7k
-    videos: 53
+    views: 974k
+    views_raw: 974000
+    subscribers: 8k
+    videos: 57
 - id: UCFpVVcldY6ASGZkuWRGizEA
   name: 'Tech Forum'
   category: edu
   country: US
   lang: en
   stats:
-    views: 3.2M
-    views_raw: 3200000
-    subscribers: 13k
-    videos: 245
+    views: 3.4M
+    views_raw: 3400000
+    subscribers: 14k
+    videos: 257
 - id: UC5WjFrtBdufl6CZojX3D8dQ
   name: Tesla
   category: brand
   country: US
   lang: en
   stats:
-    views: 71.8M
-    views_raw: 71800000
-    subscribers: 916k
-    videos: 223
+    views: 74.5M
+    views_raw: 74500000
+    subscribers: 943k
+    videos: 224
 - id: UCPMdVVKDEUrbp3nH46sTZmg
   name: Rivian
   category: brand
@@ -267,7 +267,7 @@
   stats:
     views: 1M
     views_raw: 1000000
-    subscribers: 24k
+    subscribers: 25k
     videos: 16
 - id: UCaJBDRJU7Lys2-zXcURjzbw
   name: 'Sono Motors'
@@ -275,8 +275,8 @@
   country: DE
   lang: en
   stats:
-    views: 986k
-    views_raw: 986000
+    views: 1M
+    views_raw: 1000000
     subscribers: 10k
     videos: 38
 - id: UCOpdDZoLH9IDJ8IuNZzz2iQ
@@ -285,60 +285,60 @@
   country: US
   lang: en
   stats:
-    views: 34M
-    views_raw: 34000000
-    subscribers: 148k
-    videos: 117
+    views: 35M
+    views_raw: 35000000
+    subscribers: 151k
+    videos: 121
 - id: UCUu9KSs5EgZ7C0WiOjYJpKQ
   name: 'Beat Jau'
   category: edu
   country: CH
   lang: de
   stats:
-    views: 53k
-    views_raw: 53000
+    views: 54k
+    views_raw: 54000
     subscribers: 1k
-    videos: 62
+    videos: 63
 - id: UC15kdS86LHPhSGwIfwwUtoA
   name: 'Frugal Tesla Guy'
   category: vlog
   country: US
   lang: en
   stats:
-    views: 958k
-    views_raw: 958000
-    subscribers: 8k
-    videos: 59
+    views: 1.2M
+    views_raw: 1200000
+    subscribers: 10k
+    videos: 63
 - id: UC-dBzzTxIKUCsnggnzPrk7w
   name: 'Tesla Cars Fan'
   category: edu
   country: FR
   lang: fr
   stats:
-    views: 555k
-    views_raw: 555000
-    subscribers: 4k
-    videos: 48
+    views: 662k
+    views_raw: 662000
+    subscribers: 5k
+    videos: 54
 - id: UC00dHIZyGqhNqZfohwrvYeA
   name: 'Sean Chandler'
   category: edu
   country: US
   lang: en
   stats:
-    views: 224k
-    views_raw: 224000
-    subscribers: 2k
-    videos: 16
+    views: 293k
+    views_raw: 293000
+    subscribers: 3k
+    videos: 19
 - id: UCovXaVv3__pXz2vi2DoI4iQ
   name: 'Swiss Tesla Fan'
   category: vlog
   country: CH
   lang: en
   stats:
-    views: 551
-    views_raw: 551
-    subscribers: 17
-    videos: 13
+    views: 1k
+    views_raw: 1000
+    subscribers: 24
+    videos: 24
 - id: UCbxmMfR2m8yEDMS1e3WvvGA
   name: GasTrol
   category: edu
@@ -357,18 +357,18 @@
   stats:
     views: 2.4M
     views_raw: 2400000
-    subscribers: 16k
-    videos: 462
+    subscribers: 17k
+    videos: 464
 - id: UC_kSaUSnGj5fw18yd4pXPaw
   name: 'Scott Masterson'
   category: tech
   country: US
   lang: en
   stats:
-    views: 148k
-    views_raw: 148000
-    subscribers: 397
-    videos: 51
+    views: 155k
+    views_raw: 155000
+    subscribers: 415
+    videos: 47
 - id: UCwXzlBz-amPrf5gBS4oPBJQ
   name: 'Otmar Ebenhoech'
   category: tech
@@ -385,9 +385,9 @@
   country: CH
   lang: en
   stats:
-    views: 122k
-    views_raw: 122000
-    subscribers: 432
+    views: 123k
+    views_raw: 123000
+    subscribers: 435
     videos: 19
 - id: UCRo_VskUaeGsK4MOHVlebUA
   name: 'Tesla Owners Club Helvetia'
@@ -397,7 +397,7 @@
   stats:
     views: 1k
     views_raw: 1000
-    subscribers: 9
+    subscribers: 10
     videos: 5
 - id: UCmsDIFDQFgADl5sIP8GM0Lw
   name: 'Arlin Sansome'
@@ -405,7 +405,49 @@
   country: US
   lang: en
   stats:
-    views: 407k
-    views_raw: 407000
-    subscribers: 868
-    videos: 331
+    views: 412k
+    views_raw: 412000
+    subscribers: 904
+    videos: 334
+- id: UCW2uLZAkI67PLIwmPF2RIQw
+  name: 'Tesla Driver'
+  category: test
+  country: UK
+  lang: en
+  stats:
+    views: 7.9M
+    views_raw: 7900000
+    subscribers: 57k
+    videos: 74
+- id: UC675NhQ4EU5TzwCMwYp5XCw
+  name: 'Transport Evolved'
+  category:
+    - news
+    - edu
+  country: US
+  lang: en
+  stats:
+    views: 22M
+    views_raw: 22000000
+    subscribers: 96k
+    videos: 1120
+- id: UCtczdHk56KiFYyXrQALX-0A
+  name: Jr
+  category: vlog
+  country: FR
+  lang: fr
+  stats:
+    views: 23k
+    views_raw: 23000
+    subscribers: 108
+    videos: 199
+- id: UCr8NGM9PL2I5ToaKKbcdmYw
+  name: 'Sean Mitchell'
+  category: edu
+  country: US
+  lang: en
+  stats:
+    views: 4.9M
+    views_raw: 4900000
+    subscribers: 27k
+    videos: 235

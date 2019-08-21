@@ -90,5 +90,9 @@ title: YouTube
     <h3>Réparations et conversions</h3>
     {% assign channels = site.data.youtube_channels | where:'category','tech' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
+
+    <h3>Réparations et conversions</h3>
+    {% assign channels = site.data.youtube_channels | where:'category','brand' | sort:'stats.views_raw' | reverse %}
+    {% include youtube-channels.html %}
   </div>
 </div>
