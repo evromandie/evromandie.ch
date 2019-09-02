@@ -1,0 +1,48 @@
+---
+layout: page
+---
+
+{% if page.textafter != true %}
+
+{{ content }}
+
+{% endif %}
+
+<div class="row">
+    {% for link in page.links %}
+    <div class="col-md-6 mb-3">
+        <article class="card mb-3">
+            <a class="post-thumbnail" href="{{ link.url }}">
+                {% if link.image %}
+                <img class="card-img-top" src="{{ link.image }}" alt="{{ link.title }}">
+                {% else %}
+                <i class="fa fa-link"></i>
+                {% endif %}
+            </a>
+            <div class="card-body">
+                <h5 class="card-title"><a href="{{ link.url }}">{{ link.title | escape }}</a></h5>
+
+                {% if link.location %}
+                <p class="card-text text-muted">
+                    <i class="fa fa-map-marker"></i>
+                    {{ link.location | escape }}
+                </p>
+                {% endif %}
+
+                {% if link.description %}
+                <p class="card-text text-muted">
+                    {{ link.description | escape }}
+                </p>
+                {% endif %}
+            </div>
+        </article>
+    </div>
+    {% cycle '', '</div><div class="row">' %}
+    {% endfor %}
+</div>
+
+{% if page.textafter == true %}
+
+{{ content }}
+
+{% endif %}

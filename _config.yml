@@ -31,10 +31,16 @@ matomo:
 main_menu:
   - title: Événements
     url: /evenements
-  - title: Chaînes YouTube
-    url: /youtube
-  - title: Resources
+  - title: S'informer
     children:
+      - title: Chaînes YouTube
+        url: /youtube
+      - title: Groupes de discussion
+        url: /groupes-de-discussion
+      - title: Démystification
+        url: /mythbusting
+      - title: Planifier un itinéraire
+        url: /planifier-un-itineraire
       - title: Véhicules disponibles
         url: /vehicules
       - title: Réseaux et passes
@@ -43,6 +49,16 @@ main_menu:
         url: /glossaire
       - title: Autres liens et ressources
         url: /ressources
+  - title: Rouler électrique
+    children:
+      - title: Louer un véhicule électrique
+        url: /louer-une-voiture
+      - title: Acheter d'occasion
+        url: /acheter-occasion
+      - title: Auto-école
+        url: /auto-ecole
+      - title: Courses et concours
+        url: /courses-et-concours
   - title: À propos
     url: /a-propos
   - title: Discord
