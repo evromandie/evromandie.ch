@@ -29,6 +29,8 @@ matomo:
   id: 31
 
 main_menu:
+  - title: Carte
+    url: /map
   - title: Événements
     url: /evenements
   - title: S'informer
