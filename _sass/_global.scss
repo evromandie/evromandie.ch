@@ -16,6 +16,14 @@
     }
 }
 
+.navbar-brand {
+    padding: 0;
+
+    img {
+        height: 2.5rem;
+    }
+}
+
 @include media-breakpoint-down('md') {
     header {
         background: white;
