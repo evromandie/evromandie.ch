@@ -61,6 +61,8 @@ main_menu:
         url: /auto-ecole
       - title: Courses et concours
         url: /courses-et-concours
+  - title: Soutenir
+    url: /soutenir
   - title: À propos
     url: /a-propos
   - title: Discord
