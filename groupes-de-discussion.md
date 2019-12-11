@@ -12,6 +12,10 @@ links:
   title: Plug-in Jura
   location: Groupe Whatsapp
   description: Groupe dédié aux propriétaires et enthousiastes de la mobilité électrique du canton du Jura. Modéré par EV Romandie. Contactez-nous pour rejoindre.
+- url: /discord
+  title: Serveur Discord EV Romandie
+  location: Discord
+  description: Serveur pour tous les fans de véhicules électriques.
 - url: https://www.facebook.com/groups/RenaultZoeFrancophone/
   title: Renault ZOE Francophone
   location: Groupe Facebook

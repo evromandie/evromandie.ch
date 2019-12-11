@@ -30,7 +30,7 @@ matomo:
 
 main_menu:
   - title: Carte
-    url: /map
+    url: https://map.evromandie.ch/
   - title: Événements
     url: /evenements
   - title: S'informer
@@ -39,6 +39,8 @@ main_menu:
         url: /youtube
       - title: Groupes de discussion
         url: /groupes-de-discussion
+      - title: Discord
+        url: /discord
       - title: Démystification
         url: /mythbusting
       - title: Planifier un itinéraire
@@ -61,12 +63,10 @@ main_menu:
         url: /auto-ecole
       - title: Courses et concours
         url: /courses-et-concours
-  - title: Soutenir
-    url: /soutenir
   - title: À propos
     url: /a-propos
-  - title: Discord
-    url: /discord
+  - title: Soutenir
+    url: /soutenir
 
 forum_url: https://forum.evromandie.ch/
 

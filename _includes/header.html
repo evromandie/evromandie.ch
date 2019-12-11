@@ -26,14 +26,14 @@
                             {% if page.url == child.url %}{% assign current = ' active' %}{% endif %}
                             <a class="dropdown-item" href="{{ child.url }}">
                                 {{ child.title }}
-                                {% if child.url contains '://' %} <i class="fa fa-external-link"></i>{% endif %}
+                                {% if child.external %} <i class="fa fa-external-link"></i>{% endif %}
                             </a>
                             {% endfor %}
                         </div>
                         {% else %}
                         <a href="{{ link.url }}" class="nav-link">
                             {{ link.title }}
-                            {% if link.url contains '://' %} <i class="fa fa-external-link"></i>{% endif %}
+                            {% if link.external %} <i class="fa fa-external-link"></i>{% endif %}
                         </a>
                         {% endif %}
                     </li>
