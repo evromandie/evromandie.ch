@@ -8,10 +8,10 @@ links:
   title: Club Tesla Suisse romande
   location: Groupe Facebook
   description: '>500 membres'
-- url: https://chat.whatsapp.com/Gjl46r8Jvzn8HhC39qpB46
+- url: /contact
   title: Plug-in Jura
   location: Groupe Whatsapp
-  description: Groupe dédié aux propriétaires et enthousiastes de la mobilité électrique du canton du Jura. Modéré par EV Romandie
+  description: Groupe dédié aux propriétaires et enthousiastes de la mobilité électrique du canton du Jura. Modéré par EV Romandie. Contactez-nous pour rejoindre.
 - url: https://www.facebook.com/groups/RenaultZoeFrancophone/
   title: Renault ZOE Francophone
   location: Groupe Facebook
