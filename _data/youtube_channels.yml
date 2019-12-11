@@ -18,7 +18,7 @@
     views: 3.8M
     views_raw: 3800000
     subscribers: 13k
-    videos: 295
+    videos: 296
 - id: UCoXYYfEwvxeK89WuN1txsIw
   name: 'T''es au courant'
   category: edu
@@ -48,8 +48,8 @@
   country: US
   lang: en
   stats:
-    views: 30.4M
-    views_raw: 30400000
+    views: 30.5M
+    views_raw: 30500000
     subscribers: 175k
     videos: 444
 - id: UCLdTYHvdML-EXsPeiiYJLqA
@@ -123,8 +123,8 @@
   country: UK
   lang: en
   stats:
-    views: 733k
-    views_raw: 733000
+    views: 734k
+    views_raw: 734000
     subscribers: 5k
     videos: 143
 - id: UCYP4fKM2PuLXuSTv-pHL-fg
@@ -145,7 +145,7 @@
   stats:
     views: 1.1M
     views_raw: 1100000
-    subscribers: 9k
+    subscribers: 10k
     videos: 24
 - id: UC9Hl6ZV4RRciY07TB4R_h2g
   name: 'Jürg Thomann'
@@ -325,8 +325,8 @@
   country: US
   lang: en
   stats:
-    views: 736k
-    views_raw: 736000
+    views: 738k
+    views_raw: 738000
     subscribers: 5k
     videos: 26
 - id: UCovXaVv3__pXz2vi2DoI4iQ
@@ -395,8 +395,8 @@
   country: CH
   lang: de
   stats:
-    views: 773
-    views_raw: 773
+    views: 777
+    views_raw: 777
     subscribers: 25
     videos: 8
 - id: UCmsDIFDQFgADl5sIP8GM0Lw
@@ -440,7 +440,7 @@
     views: 51k
     views_raw: 51000
     subscribers: 198
-    videos: 284
+    videos: 285
 - id: UCr8NGM9PL2I5ToaKKbcdmYw
   name: 'Sean Mitchell'
   category: edu
@@ -491,3 +491,43 @@
     views_raw: 35000
     subscribers: 183
     videos: 26
+- id: UCtr07mdKhsUwVJjL8Kw_q5A
+  name: 'Weber Auto'
+  category: tech
+  country: US
+  lang: en
+  stats:
+    views: 25.5M
+    views_raw: 25500000
+    subscribers: 141k
+    videos: 152
+- id: UCUXjzHZ9cGchJh8X1aCM1sA
+  name: 'Ride the Lightning'
+  category: podcast
+  country: US
+  lang: en
+  stats:
+    views: 433k
+    views_raw: 433000
+    subscribers: 6k
+    videos: 237
+- id: UCvUf_yOU_swE6PtOuv2yBqg
+  name: 'Our Ludicrous Future'
+  category: podcast
+  country: US
+  lang: en
+  stats:
+    views: 2M
+    views_raw: 2000000
+    subscribers: 37k
+    videos: 62
+- id: UC_3halIlXCYn_En2YeyN20Q
+  name: Teslafinity
+  category: education
+  country: CH
+  lang: en
+  stats:
+    views: 5.5M
+    views_raw: 5500000
+    subscribers: 21k
+    videos: 49

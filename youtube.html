@@ -87,6 +87,10 @@ title: YouTube
     {% assign channels = site.data.youtube_channels | where:'category','vlog' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
 
+    <h3>Podcasts</h3>
+    {% assign channels = site.data.youtube_channels | where:'category','podcast' | sort:'stats.views_raw' | reverse %}
+    {% include youtube-channels.html %}
+
     <h3>Réparations et conversions</h3>
     {% assign channels = site.data.youtube_channels | where:'category','tech' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}

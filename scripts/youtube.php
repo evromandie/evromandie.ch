@@ -54,31 +54,49 @@ foreach ($channels as $i => $channel) {
 $config = require('config.php');
 $apiKey = $config['google-api-key'];
 
-$response = json_decode(file_get_contents('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=' . implode(',', $ids) . '&fields=items(id,snippet/thumbnails/medium,statistics)&key=' . $apiKey), true);
+// Lorsqu'on atteint 80 chaînes, la requête ne passe plus (peut-être query string trop longue?) donc on fait plusieurs requêtes
+foreach (array_chunk($ids, 20) as $i => $chunkedIds) {
+    if ($i > 0) {
+        // Attente entre les requêtes
+        sleep(1);
+    }
 
-foreach ($response['items'] as $index => $channel) {
-    $id = $channel['id'];
-    $url = $channel['snippet']['thumbnails']['medium']['url'];
+    echo 'Requête API lot ' . $i . PHP_EOL;
 
-    echo 'Téléchargement de l\'avatar pour ' . $id . PHP_EOL;
+    $apiResponse = file_get_contents('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=' . implode(',', $chunkedIds) . '&fields=items(id,snippet/thumbnails/medium,statistics)&key=' . $apiKey);
+    $response = json_decode($apiResponse, true);
 
-    // Copie l'avatar localement
-    copy($url, __DIR__ . '/../media/youtube-avatars/' . $id . '.jpg');
+    if ($response === null) {
+        echo 'Erreur requête' . PHP_EOL;
 
-    // Récupère les statistiques de la chaîne
-    foreach ($channels as $i => $data) {
-        if ($data['id'] !== $id) {
-            continue;
+        echo $apiResponse;
+        die();
+    }
+
+    foreach ($response['items'] as $index => $channel) {
+        $id = $channel['id'];
+        $url = $channel['snippet']['thumbnails']['medium']['url'];
+
+        echo 'Téléchargement de l\'avatar pour ' . $id . PHP_EOL;
+
+        // Copie l'avatar localement
+        copy($url, __DIR__ . '/../media/youtube-avatars/' . $id . '.jpg');
+
+        // Récupère les statistiques de la chaîne
+        foreach ($channels as $i => $data) {
+            if ($data['id'] !== $id) {
+                continue;
+            }
+
+            $channels[$i]['stats'] = [
+                'views' => numberToDisplay($channel['statistics']['viewCount']),
+                'views_raw' => (int)numberToRaw($channel['statistics']['viewCount']),
+                'subscribers' => numberToDisplay($channel['statistics']['subscriberCount']),
+                'videos' => intval($channel['statistics']['videoCount']),
+            ];
+
+            break;
         }
-
-        $channels[$i]['stats'] = [
-            'views' => numberToDisplay($channel['statistics']['viewCount']),
-            'views_raw' => (int)numberToRaw($channel['statistics']['viewCount']),
-            'subscribers' => numberToDisplay($channel['statistics']['subscriberCount']),
-            'videos' => intval($channel['statistics']['videoCount']),
-        ];
-
-        break;
     }
 }
 
