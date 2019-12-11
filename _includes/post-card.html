@@ -5,6 +5,8 @@
         <i class="fa fa-play"></i>
         {% elsif post.flickr %}
         <img class="card-img-top" src="{{ post.flickr_thumbnail }}" alt="Aperçu de la photo du post">
+        {% elsif post.thumbnail %}
+        <img class="card-img-top" src="{{ post.thumbnail }}" alt="Miniature de la publication">
         {% else %}
         <i class="fa fa-bullhorn"></i>
         {% endif %}
