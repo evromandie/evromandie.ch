@@ -38,8 +38,8 @@
   lang: en
   highlight: 1
   stats:
-    views: 29.7M
-    views_raw: 29700000
+    views: 29.8M
+    views_raw: 29800000
     subscribers: 152k
     videos: 863
 - id: UCbEbf0-PoSuHD0TgMbxomDg
@@ -437,9 +437,9 @@
   country: FR
   lang: fr
   stats:
-    views: 51k
-    views_raw: 51000
-    subscribers: 198
+    views: 52k
+    views_raw: 52000
+    subscribers: 199
     videos: 285
 - id: UCr8NGM9PL2I5ToaKKbcdmYw
   name: 'Sean Mitchell'
@@ -523,7 +523,7 @@
     videos: 62
 - id: UC_3halIlXCYn_En2YeyN20Q
   name: Teslafinity
-  category: education
+  category: edu
   country: CH
   lang: en
   stats:
@@ -531,3 +531,23 @@
     views_raw: 5500000
     subscribers: 21k
     videos: 49
+- id: UCO8njdiq06-irfyc9xaCyig
+  name: 'James and Kate'
+  category: test
+  country: UK
+  lang: en
+  stats:
+    views: 1.9M
+    views_raw: 1900000
+    subscribers: 11k
+    videos: 108
+- id: UCUmS4dfI0PEluoD4pnparEg
+  name: 'Because Tesla'
+  category: vlog
+  country: US
+  lang: en
+  stats:
+    views: 255k
+    views_raw: 255000
+    subscribers: 2k
+    videos: 19
