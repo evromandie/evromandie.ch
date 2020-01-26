@@ -4,6 +4,7 @@ url: https://evromandie.ch
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 exclude:
   - Gemfile
@@ -35,6 +36,8 @@ main_menu:
     url: /evenements
   - title: S'informer
     children:
+      - title: Stands d'information
+        url: /stands
       - title: Chaînes YouTube
         url: /youtube
       - title: Groupes de discussion
