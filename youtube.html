@@ -58,6 +58,10 @@ title: YouTube
     {% assign channels = site.data.youtube_channels | where:'country','NO' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
 
+    <h3>Allemagne</h3>
+    {% assign channels = site.data.youtube_channels | where:'country','DE' | sort:'stats.views_raw' | reverse %}
+    {% include youtube-channels.html %}
+
     <h3>Irlande</h3>
     {% assign channels = site.data.youtube_channels | where:'country','IR' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
