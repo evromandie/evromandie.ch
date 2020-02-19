@@ -7,7 +7,7 @@ title: Stands bénévoles EV Romandie
 <div class="row">
 <div class="col-md-8" markdown="1">
 
-![Illustration stands](/media/illustration-stands.jpg?v=6f592ad468bd59377135b5de39c0ee03){:class="img-fluid"}
+![Illustration stands](/media/20200201-stand-ev-romandie.jpg?v=e3c6a76b657dff2adf1bc5cbdb99e5f6){:class="img-fluid"}
 
 Dans ce nouveau concept lancé en 2020, des bénévoles de l'équipe EV Romandie partageront leur expérience sur les véhicules électriques et répondront à vos questions.
 
@@ -16,7 +16,6 @@ Sur le stand, vous pourrez découvrir une voiture électrique, une station de re
 Nous ne vendons rien, nous souhaitons juste vous informer sur les avantages malheureusement encore bien méconnus des voitures électriques, pour vous aider à faire un choix bien informé lors de votre prochain changement de véhicule.
 
 Le stand sera présenté durant divers événements dans le Jura et peut-être plus loin par la suite.
-Le premier stand aura lieu les 31 janvier et 1er février à Delémont.
 
 ### Je ne connais rien aux véhicules électriques
 
@@ -41,13 +40,14 @@ Si vous pensez que votre événement s'intégrerait bien avec le stand EV Romand
 
 ## Prochains stands
 
-Vendredi **31 janvier** 9h30-18h00<br>
-Samedi **1er février** 9h30-16h
+Vendredi **27 mars**<br>
+Samedi **28 mars**<br>
+Dimanche **29 mars**
 
-Devant le magasin bio&co<br>
-Rue des Pinsons 17 à Delémont.
+Durant le salon de la mobilité 2020<br>
+Tennis couvert, Porrentruy.
 
-[Événement Facebook](https://www.facebook.com/events/849983835421543/){:class="btn btn-secondary"}
+[Événement Facebook](https://www.facebook.com/events/3486520158087606/){:class="btn btn-secondary"}
 
 ---
 
