@@ -73,6 +73,10 @@ title: YouTube
     <h3>Canada</h3>
     {% assign channels = site.data.youtube_channels | where:'country','CA' | sort:'stats.views_raw' | reverse %}
     {% include youtube-channels.html %}
+
+    <h3>Australie</h3>
+    {% assign channels = site.data.youtube_channels | where:'country','AU' | sort:'stats.views_raw' | reverse %}
+    {% include youtube-channels.html %}
   </div>
   <div class="tab-pane fade" id="par-categorie" role="tabpanel" aria-labelledby="par-categorie-tab">
     <h3>Éducation</h3>
