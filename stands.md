@@ -40,17 +40,6 @@ Si vous pensez que votre événement s'intégrerait bien avec le stand EV Romand
 
 ## Prochains stands
 
-Vendredi **27 mars**<br>
-Samedi **28 mars**<br>
-Dimanche **29 mars**
-
-Durant le salon de la mobilité 2020<br>
-Tennis couvert, Porrentruy.
-
-[Événement Facebook](https://www.facebook.com/events/3486520158087606/){:class="btn btn-secondary"}
-
----
-
 D'autres dates à venir!
 
 </div>
