@@ -10,6 +10,10 @@ Les données des stations sont mises à jour aussi fréquemment que possible et 
 
 Merci de signaler tout problème via le bouton "Feedback" de la carte ou la page [contact](/contact).
 
+## 2023
+
+Les nouvelles fonctions sont désormais annoncées directement sur le forum <https://forum.evromandie.ch/d/3844>
+
 ## 2019-12-06
 
 - Filtres par voiture ou prises/puissance
