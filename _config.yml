@@ -48,10 +48,6 @@ main_menu:
         url: /mythbusting
       - title: Planifier un itinéraire
         url: /planifier-un-itineraire
-      - title: Véhicules disponibles
-        url: /vehicules
-      - title: Réseaux et passes
-        url: /reseaux
       - title: Glossaire
         url: /glossaire
       - title: Autres liens et ressources

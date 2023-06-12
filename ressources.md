@@ -29,28 +29,32 @@ Suisse:
 Nous avons également une [page dédiée](/reseaux) avec un tableau de compatibilité entre les passes.
 
 - [EVPASS](https://evpass.ch/) (réseau et passe avec ou sans abonnement)
-  - [Smotion](http://www.smotion.ch/) (Jura, Jura bernois)
-  - [Vmotion](http://www.vmotion.ch/) (Neuchatel)
-- [EVite](https://www.swiss-emobility.ch/fr/EVite/EVite-Ladestationen/index.php) (réseau)
-- [Move](https://www.move.ch/fr/) (passe avec abonnement, plusieurs partenaires)
-- [M-Way / Migros](https://generation-m.migros.ch/fr/preserver-la-planete/astuces-et-outils/recharger-voiture-electrique.html) (bornes gratuites sur les parkings des magasins Migros)
+  - [Smotion](https://www.smotion.ch/) (Jura, Jura bernois)
+  - [Vmotion](https://www.vmotion.ch/) (Neuchatel)
+- [Move](https://move.ch/fr/) (passe avec abonnement, plusieurs partenaires)
 - [GOFAST](https://www.gofast.swiss/fr) (infrastructure, plusieurs partenaires)
+- [Fastned](https://fastnedcharging.com/fr/) (réseau)
+- [Shell Recharge](https://www.shell.ch/fr_ch/automobilistes/shell-recharge.html) (réseau)
+- [IONITY](https://ionity.eu/) (réseau)
+- Migrol (réseau)
+  - [Fast Charging](https://www.migrol.ch/fr/mobilit%C3%A9/e-mobilit%C3%A9/migrol-fast-charging/)
+  - [M-CHARGE](https://www.migrol.ch/fr/mobilit%C3%A9/e-mobilit%C3%A9/migros-recharger-acheter/)
 - [Liste des réseaux suisses sur Openchargemap](https://openchargemap.org/site/country/switzerland/networks)
 
 International:
 
 - [Plugshare](https://www.plugshare.com/) (liste de chargeurs)
-- [Chargemap](https://chargemap.com/map) (liste de chargeur et pass)
+- [Chargemap](https://chargemap.com/map) (liste de chargeurs et pass)
 - [Supercharge.info](https://supercharge.info/) (liste non officielle des super-chargeurs Tesla)
 - [Carte des chargeurs Tesla](https://www.tesla.com/fr_CH/findus) (officielle)
 - [eCarUp](https://web.ecarup.com/) (solution de partage de chargeurs privés/professionnels)
 
 News des réseaux suisses:
 
-- [GOFAST](https://www.gofast.swiss/fr/nouvelles)
+- [GOFAST](https://www.gofast.swiss/fr/blog)
 - [EVPASS](https://evpass.ch/Common/News)
-- [Move](https://www.move.ch/fr/news/)
-- [Swisscharge](https://www.swisscharge.ch/news/) (DE)
+- [Move](https://move.ch/fr/news-fr/)
+- [Swisscharge](https://www.swisscharge.ch/fr/news/)
 
 ## Sites d'information
 
@@ -62,15 +66,3 @@ En anglais:
 
 - [Electrek](https://electrek.co/)
 - [Teslarati](https://www.teslarati.com/)
-
-## Matériel
-
-Wallboxes:
-
-- [m-way](https://m-way.ch/fr/infrastucture-de-recharge/)
-- [vRbikes](https://www.vrbikes.ch/fr/station-de-recharge.html)
-- [Smotion](http://www.smotion.ch/fr/Solutions-de-recharge/Solutions-de-recharge.html)
-- [BKW (maison)](https://www.bkw.ch/fr/clients-prives/electromobilite/borne-de-recharge-pour-la-maison/)
-- [BKW (entreprise)](https://www.bkw.ch/fr/clients-commerciaux/electromobilite/borne-de-recharge/)
-- [Wallbe](https://shop.wallbe.ch/) (DE)
-- [Schnellladen](https://www.schnellladen.ch/de/) (DE)

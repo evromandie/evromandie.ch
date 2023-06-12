@@ -3,12 +3,12 @@ layout: linklist
 permalink: /auto-ecole
 title: Auto-école
 links:
-- url: https://www.cod106.ch/cours/auto/
+- url: https://www.cod106.ch/
   image: /media/auto-ecole/cod106-bmw-i3.jpg
   title: Cod106
   location: 2300 La Chaux-de-Fonds
   description: BMW i3
-- url: http://www.leto-ecole.ch/presentation.html
+- url: https://www.leto-ecole.ch/
   image: /media/auto-ecole/leto-ecole-tesla-model3.jpg
   title: Leto école
   location: 1870 Monthey

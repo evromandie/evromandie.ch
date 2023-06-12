@@ -13,4 +13,4 @@ Il corrige également le format et l'ordre des chaînes dans le fichier de donn�
 
 Installer les dépendances Composer dans le dossier `scripts` puis exécuter:
 
-    php -f scripts/youtube.php 
+    php -f scripts/youtube.php

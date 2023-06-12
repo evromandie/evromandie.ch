@@ -7,11 +7,11 @@ links:
   image: /media/groupes/club-tesla-suisse-romande.jpg
   title: Club Tesla Suisse romande
   location: Groupe Facebook
-  description: '>1700 membres'
+  description: '>2800 membres'
 - url: https://www.facebook.com/groups/308952173134166
   title: Voiture Electrique Suisse Romande
   location: Groupe Facebook
-  description: '>200 membres'
+  description: '>400 membres'
 - url: /contact
   title: Plug-in Jura
   location: Groupe Whatsapp
@@ -23,15 +23,15 @@ links:
 - url: https://www.facebook.com/groups/RenaultZoeFrancophone/
   title: Renault ZOE Francophone
   location: Groupe Facebook
-  description: '>4800 membres'
+  description: '>7300 membres'
 - url: https://www.facebook.com/groups/voiture.electrique/
   title: Voiture électrique
   location: Groupe Facebook
-  description: '>9900 membres. Modéré par automobile-propre.com'
+  description: '>35k membres. Modéré par automobile-propre.com'
 - url: https://www.facebook.com/groups/voitureselectrique/
   title: Voiture électrique
   location: Groupe Facebook
-  description: '>1800 membres'
+  description: '>2800 membres'
 ---
 
 En plus de notre propre [forum]({{ site.forum_url }}) et [Discord](/discord), ces groupes de discussion existent:
